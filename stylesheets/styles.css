@@ -1,0 +1,58 @@
+:root {
+  --midnight-blue: #2c3e50;
+  --wet-asphalt: #34495e;
+  --emerald: #2ecc71;
+}
+
+.html,
+.body {
+  height: 100%;
+}
+
+body {
+  background-color: var(--midnight-blue);
+}
+
+/* Extending the orginal class from Bootstrap */
+.navbar {
+  font-family: 'Quicksand', cursive;
+  background-color: var(--midnight-blue);
+}
+
+.landing {
+  background-image: url('../images/computer.jpg');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-color: transparent;
+  background-attachment: fixed;
+  min-height: 100vh;
+
+  color: white;
+  text-align: center;
+}
+
+.circle {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  max-width: 250px;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+/* No media query for `xs` since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
