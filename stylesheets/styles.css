@@ -30,6 +30,7 @@ body {
   background-color: var(--dracula-orchid);
   font-family: 'Quicksand', cursive;
   color: white;
+  padding-top: 72px;
 }
 
 /* Extending the orginal class from Bootstrap */
@@ -105,6 +106,12 @@ footer a {
 
 footer a:hover {
   text-decoration: none;
+}
+
+#message-bottom {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
 #message-bottom:hover {

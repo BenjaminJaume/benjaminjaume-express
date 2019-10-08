@@ -120,6 +120,7 @@
     />
 
     <link rel="stylesheet" href="./stylesheets/styles.css" />
+    <link rel="stylesheet" href="./stylesheets/timeline.css" />
   </head>
 
   <body>
@@ -140,7 +141,7 @@
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto ">
-            <li class="nav-item active">
+            <li class="nav-item">
               <a class="nav-link" href="index.html">
                 <i class="material-icons align-bottom">
                   home
@@ -149,7 +150,7 @@
                 <span class="sr-only">(current)</span>
               </a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item active">
               <a class="nav-link" href="about-me.html">
                 <i class="material-icons align-bottom">
                   info
@@ -193,216 +194,121 @@
       </nav>
     </header>
 
-    <section>
-      <div id="carousel" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#carousel" data-slide-to="0" class="active"></li>
-          <li data-target="#carousel" data-slide-to="1"></li>
-          <li data-target="#carousel" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner" role="listbox">
-          <!-- Slide One - Set the background image for this slide in the line below -->
-          <div
-            class="carousel-item active"
-            style="background-image: url('./images/computer.jpg')"
-          >
-            <div class="carousel-caption d-none d-md-block">
-              <h2 class="display-4">
-                <!-- First Slide -->
-              </h2>
-              <p class="lead">
-                <!-- This is a description for the first slide. -->
-              </p>
-            </div>
-          </div>
-          <!-- Slide Two - Set the background image for this slide in the line below -->
-          <div
-            class="carousel-item"
-            style="background-image: url('./images/computer-1.jpg')"
-          >
-            <div class="carousel-caption d-none d-md-block">
-              <h2 class="display-4">
-                <!-- Second Slide -->
-              </h2>
-              <p class="lead">
-                <!-- This is a description for the second slide. -->
-              </p>
-            </div>
-          </div>
-          <!-- Slide Three - Set the background image for this slide in the line below -->
-          <div
-            class="carousel-item"
-            style="background-image: url('./images/computer-2.jpg')"
-          >
-            <div class="carousel-caption d-none d-md-block">
-              <h2 class="display-4">
-                <!-- Third Slide -->
-              </h2>
-              <p class="lead">
-                <!-- This is a description for the third slide. -->
-              </p>
-            </div>
-          </div>
-        </div>
-        <!-- <a
-          class="carousel-control-prev"
-          href="#carouselExampleIndicators"
-          role="button"
-          data-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a
-          class="carousel-control-next"
-          href="#carouselExampleIndicators"
-          role="button"
-          data-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a> -->
-      </div>
-      <div
-        class="d-flex flex-column main-text justify-content-center align-items-center"
-      >
-        <h3 class="title animated fadeInDown">Hi!</h3>
-        <h4>I'm Benjamin Jaume</h4>
-        <h5>Front-End Developer</h5>
+    <div class="container py-5">
+      <!-- For demo purpose -->
+      <div class="row text-center text-white mb-5">
+        <div class="col-lg-8 mx-auto">
+          <h1>About me</h1>
+          <p>
+            Hi, I am Benjamin Jaume, I am a 24 year-old Frenchman living in
+            Sydney for almost 2 years. In early 2018, I was eager to discover
+            the world!
+          </p>
+          <p>
+            was curious about being imersed in a new country, a new culture, a
+            new way to think, new landscape, and also new language!
+          </p>
+          <p>
+            Now I am taking courses, attempting events, connecting with people
+            and much more to start my career in the field that has always been
+            made for me! On my spare time, I like to go for hikes, eat some
+            sushis, travel somewhere or even go for a long run.
+            Self-consciousness, self-developpment food and sport
+          </p>
 
-        <img src="./images/benjaminjaume.jpg" alt="" class="circle py-3" />
-
-        <a
-          href="#discover"
-          id="take-tour-button"
-          class="btn btn-outline-light btn-lg tour-button"
-        >
-          Take a tour
-          <i class="fas fa-arrow-right ml-2"></i>
-        </a>
-      </div>
-    </section>
-
-    <section class="container py-5">
-      <div id="discover">
-        <div class="row">
-          <div class="col-md-7">
-            <a href="about-me.html">
-              <h2 class="discover-heading">
-                Want to know more about me? 🧐
-              </h2>
-              <p class="lead">
-                Whether you are an employer, a family member, a friend or just a
-                random person lost on the internet, this is for you. If you are
-                actually interested in me, let me tell you my story
-              </p>
-            </a>
-            <a href="about-me.html" class="btn btn-outline-success">
-              <i class="fas fa-plus pr-2"></i>
-              More
-            </a>
-          </div>
-          <div class="col-md-5">
-            <a href="about-me.html">
-              <img
-                src="./images/about-me-square.jpg"
-                alt="About me"
-                class="img-fluid"
-              />
-            </a>
-          </div>
-        </div>
-
-        <hr class="discover-divider" />
-
-        <div class="row">
-          <div class="col-md-7 order-md-2">
-            <a href="portfolio.html">
-              <h2 class="discover-heading">
-                Discover my Portfolio 📚
-              </h2>
-              <p class="lead">
-                Since I've wrote my first line of code, I have created lots of
-                different websites, applications and projects. There is a list
-                of all of them you can find on this page
-              </p>
-            </a>
-            <a href="portfolio.html" class="btn btn-outline-success">
-              <i class="fas fa-plus pr-2"></i>
-              More
-            </a>
-          </div>
-          <div class="col-md-5 order-md-1">
-            <a href="portfolio.html">
-              <img
-                src="./images/portfolio-square.jpg"
-                alt="Portfolio"
-                class=" img-fluid"
-              />
-            </a>
-          </div>
-        </div>
-
-        <hr class="discover-divider" />
-
-        <div class="row">
-          <div class="col-md-7">
-            <a href="resume.html">
-              <h2 class="discover-heading">
-                Download or access my resume 📜
-              </h2>
-              <p class="lead">
-                You have the choice to download a PDF version of my resume, or
-                just having a quick look at it on my website by clicking here
-              </p>
-            </a>
-            <a href="resume.html" class="btn btn-outline-success">
-              <i class="fas fa-plus pr-2"></i>
-              More
-            </a>
-          </div>
-          <div class="col-md-5">
-            <a href="resume.html">
-              <img
-                src="./images/resume-square.jpg"
-                alt="Resume"
-                class="img-fluid"
-              />
-            </a>
-          </div>
-        </div>
-
-        <hr class="discover-divider" />
-
-        <div class="row">
-          <div class="col-md-7 order-md-2">
-            <a href="contact.html">
-              <h2 class="discover-heading">
-                Let's keep in touch 👍
-              </h2>
-              <p class="lead">
-                Fell free to send me a message if you want to contact me
-              </p>
-            </a>
-            <a href="contact.html" class="btn btn-outline-success">
-              <i class="fas fa-plus pr-2"></i>
-              More
-            </a>
-          </div>
-          <div class="col-md-5 order-md-1">
-            <a href="contact.html">
-              <img
-                src="./images/contact-square.jpg"
-                alt="Contact"
-                class=" img-fluid"
-              />
-            </a>
-          </div>
+          <a href="#footer" class="btn btn-outline-warning btn-lg mt-4"
+            >Show me the beginning
+            <i class="fas fa-arrow-down ml-2"></i>
+          </a>
         </div>
       </div>
-    </section>
+      <!-- End -->
 
-    <footer class="bg-light">
+      <div class="row">
+        <div class="col-lg-7 mx-auto">
+          <!-- Timeline -->
+          <ul class="timeline">
+            <li class="timeline-item bg-light rounded ml-3 p-4 shadow">
+              <div class="timeline-arrow"></div>
+              <h5 class="mb-0">Australia</h5>
+              <span class="small"
+                ><i class="far fa-clock mr-1"></i>2018-2019</span
+              >
+              <p class="text-small mt-2 font-weight-light">
+                Let's discover the world!
+              </p>
+            </li>
+            <li class="timeline-item bg-light rounded ml-3 p-4 shadow">
+              <div class="timeline-arrow"></div>
+              <h5 class="mb-0">
+                Casual work, lots of professional experience
+              </h5>
+              <span class="small"><i class="far fa-clock mr-1"></i>2016</span>
+              <p class="text-small mt-2 font-weight-light">
+                After my studies, it was time for me to start working. The
+                company I did my apprenticeship with hired me at a casual
+                worker. After a while, I continued working in a different field
+                for a year and a half
+              </p>
+            </li>
+            <li class="timeline-item bg-light rounded ml-3 p-4 shadow">
+              <div class="timeline-arrow"></div>
+              <h5 class="mb-0">Technical Bachelor Degree</h5>
+              <span class="small"><i class="far fa-clock mr-1"></i>2016</span>
+              <p class="text-small mt-2 font-weight-light">
+                Finally, in 2016, I got graduated from school with a Technical
+                Bachelor Degree in both Computer Science & Industrial Network.
+              </p>
+            </li>
+            <li class="timeline-item bg-light rounded ml-3 p-4 shadow">
+              <div class="timeline-arrow"></div>
+              <h5 class="mb-0">Advanced Technician Degree</h5>
+              <span class="small"><i class="far fa-clock mr-1"></i>2015</span>
+              <p class="text-small mt-2 font-weight-light">
+                Then I obtained an Advanced Technician Degree in Computer
+                Science & Networks.
+              </p>
+            </li>
+            <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
+              <div class="timeline-arrow"></div>
+              <h5 class="mb-0">Bachelor Degree</h5>
+              <span class="small"><i class="far fa-clock mr-1"></i>2013</span>
+              <p class="text-small mt-2 font-weight-light">
+                After 2 years of very interesting studies with good and involded
+                teachers, I obtained a Bachelor Degree in Digital & Information
+                System in 2013.
+              </p>
+            </li>
+            <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
+              <div class="timeline-arrow"></div>
+              <h5 class="mb-0">My studies in Computer Science</h5>
+              <span class="small"><i class="far fa-clock mr-1"></i>2011</span>
+              <p class="text-small mt-2 font-weight-light">
+                Since then, I choose to continue my studies in Electronic,
+                Computer Science and Programming.
+              </p>
+            </li>
+            <li class="timeline-item bg-light rounded ml-3 p-4 shadow">
+              <div class="timeline-arrow"></div>
+              <h5 class="mb-0">The beginning of everything</h5>
+              <span class="small text-gray"
+                ><i class="far fa-clock mr-1"></i>2010</span
+              >
+              <p class="text-small mt-2 font-weight-light">
+                Everything started when I am 15. I was when my father gave me
+                his Casio Graph 35+ Calculator that I started programming for me
+                and my friends to solve mathematical problem and create games.
+                It was at that time that I discovered that I was passionate
+                about algorithmic and problem solving.
+              </p>
+            </li>
+          </ul>
+          <!-- End -->
+        </div>
+      </div>
+    </div>
+
+    <footer id="footer" class="bg-light">
       <div id="message-bottom" class="message-bottom pt-2">
         <p>Created with ❤ by Benjamin Jaume</p>
       </div>
