@@ -1,34 +1,59 @@
 :root {
+  /* Flat UI Palette v1 */
   --midnight-blue: #2c3e50;
   --wet-asphalt: #34495e;
   --emerald: #2ecc71;
+  --dracula-orchid: #2d3436;
+  --silver: #bdc3c7;
+  --clouds: #ecf0f1;
+  --belize-hole: #2980b9;
+  --alizarin: #e74c3c;
+  --carrot: #e67e22;
+  --sun-flower: #f1c40f;
+  --peter-river: #3498db;
+  --amethyst: #9b59b6;
+  --concrete: #95a5a6;
+
+  /* Colors */
+  --indigo: #3f00ff;
+  --linkedin-color: #0077b5;
+  --github-color: #24292e;
+  --facebook-color: #4267b2;
+  --whatsapp-color: #00e676;
 }
 
-.html,
-.body {
-  height: 100%;
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background-color: var(--midnight-blue);
+  background-color: var(--dracula-orchid);
+  font-family: 'Quicksand', cursive;
+  color: white;
 }
 
 /* Extending the orginal class from Bootstrap */
 .navbar {
-  font-family: 'Quicksand', cursive;
-  background-color: var(--midnight-blue);
+  background-color: var(--dracula-orchid);
 }
 
-.landing {
-  background-image: url('../images/computer.jpg');
+.carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
-  background-position: 50% 50%;
-  background-color: transparent;
   background-attachment: fixed;
-  min-height: 100vh;
+}
 
-  color: white;
+.main-text {
+  position: absolute;
   text-align: center;
+  top: 15vh;
+  width: 100%;
+  color: white;
 }
 
 .circle {
@@ -36,6 +61,72 @@ body {
   -moz-border-radius: 50%;
   border-radius: 50%;
   max-width: 250px;
+}
+
+.title {
+  font-family: 'Great Vibes', cursive;
+  font-size: 96px;
+}
+
+#discover {
+  text-align: center;
+}
+
+#discover a {
+  text-decoration: none;
+  color: white;
+}
+
+#discover a:hover {
+  text-decoration: none;
+}
+
+#discover img {
+  border-radius: 10px;
+}
+
+.discover-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+  background-color: white;
+}
+
+footer {
+  color: var(--silver);
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+footer a {
+  font-size: 3em;
+  text-decoration: none;
+  color: var(--silver);
+}
+
+footer a:hover {
+  text-decoration: none;
+}
+
+#message-bottom:hover {
+  -webkit-animation: heartBeat 1s;
+  animation: heartBeat 1s;
+  cursor: default;
+}
+
+.linkedin-icon:hover {
+  color: var(--linkedin-color);
+}
+
+.github-icon:hover {
+  color: var(--github-color);
+}
+
+.facebook-icon:hover {
+  color: var(--facebook-color);
+}
+
+.whatsapp-icon:hover {
+  color: var(--whatsapp-color);
 }
 
 /* Extra small devices (portrait phones, less than 576px) */
@@ -51,6 +142,9 @@ body {
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+  .discover-heading {
+    margin-top: 7rem;
+  }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
