@@ -8,57 +8,10 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-
-    <link
-      rel="apple-touch-icon"
-      sizes="57x57"
-      href="./images/favicon/apple-icon-57x57.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="60x60"
-      href="./images/favicon/apple-icon-60x60.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="72x72"
-      href="./images/favicon/apple-icon-72x72.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="76x76"
-      href="./images/favicon/apple-icon-76x76.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="114x114"
-      href="./images/favicon/apple-icon-114x114.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="120x120"
-      href="./images/favicon/apple-icon-120x120.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="144x144"
-      href="./images/favicon/apple-icon-144x144.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="152x152"
-      href="./images/favicon/apple-icon-152x152.png"
-    />
     <link
       rel="apple-touch-icon"
       sizes="180x180"
-      href="./images/favicon/apple-icon-180x180.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="192x192"
-      href="./images/favicon/android-icon-192x192.png"
+      href="./images/favicon/apple-touch-icon.png"
     />
     <link
       rel="icon"
@@ -69,20 +22,10 @@
     <link
       rel="icon"
       type="image/png"
-      sizes="96x96"
-      href="./images/favicon/favicon-96x96.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
       sizes="16x16"
       href="./images/favicon/favicon-16x16.png"
     />
-    <link rel="manifest" href="./images/favicon/manifest.json" />
-    <meta name="msapplication-TileColor" content="#ffffff" />
-    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
-    <meta name="theme-color" content="#ffffff" />
-
+    <link rel="manifest" href="./images/favicon/site.webmanifest" />
     <!-- Bootstrap CSS -->
     <link
       rel="stylesheet"
@@ -124,7 +67,7 @@
 
   <body>
     <header class="">
-      <nav class="navbar navbar-expand-lg fixed-top navbar-dark py-3">
+      <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
         <a class="navbar-brand mx-auto pr-3" href="#">Benjamin Jaume</a>
         <button
           class="navbar-toggler"
@@ -139,7 +82,7 @@
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto ">
+          <ul class="navbar-nav mx-auto ">
             <li class="nav-item active">
               <a class="nav-link" href="index.html">
                 <i class="material-icons align-bottom">
@@ -183,7 +126,7 @@
             </li>
           </ul>
 
-          <button class="btn btn-outline-success" type="button">
+          <button class="btn btn-outline-success download-button" type="button">
             <i class="material-icons align-bottom">
               save_alt
             </i>
@@ -284,20 +227,18 @@
     </section>
 
     <section class="container py-5">
-      <div id="discover">
+      <div id="discover" class="discover">
         <div class="row">
           <div class="col-md-7">
-            <a href="about-me.html">
-              <h2 class="discover-heading">
-                Want to know more about me? 🧐
-              </h2>
-              <p class="lead">
-                Whether you are an employer, a family member, a friend or just a
-                random person lost on the internet, this is for you. If you are
-                actually interested in me, let me tell you my story
-              </p>
-            </a>
-            <a href="about-me.html" class="btn btn-outline-success">
+            <h2 class="discover-heading">
+              Want to know more about me? 🧐
+            </h2>
+            <p class="lead">
+              Whether you are an employer, a family member, a friend or just a
+              random person lost on the internet, this is for you. If you are
+              actually interested in me, let me tell you my story
+            </p>
+            <a href="about-me.html" class="btn btn-outline-success btn-more">
               <i class="fas fa-plus pr-2"></i>
               More
             </a>
@@ -317,17 +258,15 @@
 
         <div class="row">
           <div class="col-md-7 order-md-2">
-            <a href="portfolio.html">
-              <h2 class="discover-heading">
-                Discover my Portfolio 📚
-              </h2>
-              <p class="lead">
-                Since I've wrote my first line of code, I have created lots of
-                different websites, applications and projects. There is a list
-                of all of them you can find on this page
-              </p>
-            </a>
-            <a href="portfolio.html" class="btn btn-outline-success">
+            <h2 class="discover-heading">
+              Discover my Portfolio 📚
+            </h2>
+            <p class="lead">
+              Since I've wrote my first line of code, I have created lots of
+              different websites, applications and projects. There is a list of
+              all of them you can find on this page
+            </p>
+            <a href="portfolio.html" class="btn btn-outline-success btn-more">
               <i class="fas fa-plus pr-2"></i>
               More
             </a>
@@ -347,16 +286,14 @@
 
         <div class="row">
           <div class="col-md-7">
-            <a href="resume.html">
-              <h2 class="discover-heading">
-                Download or access my resume 📜
-              </h2>
-              <p class="lead">
-                You have the choice to download a PDF version of my resume, or
-                just having a quick look at it on my website by clicking here
-              </p>
-            </a>
-            <a href="resume.html" class="btn btn-outline-success">
+            <h2 class="discover-heading">
+              Download or access my resume 📜
+            </h2>
+            <p class="lead">
+              You have the choice to download a PDF version of my resume, or
+              just having a quick look at it on my website by clicking here
+            </p>
+            <a href="resume.html" class="btn btn-outline-success btn-more">
               <i class="fas fa-plus pr-2"></i>
               More
             </a>
@@ -376,15 +313,13 @@
 
         <div class="row">
           <div class="col-md-7 order-md-2">
-            <a href="contact.html">
-              <h2 class="discover-heading">
-                Let's keep in touch 👍
-              </h2>
-              <p class="lead">
-                Fell free to send me a message if you want to contact me
-              </p>
-            </a>
-            <a href="contact.html" class="btn btn-outline-success">
+            <h2 class="discover-heading">
+              Let's keep in touch 👍
+            </h2>
+            <p class="lead">
+              Fell free to send me a message if you want to contact me
+            </p>
+            <a href="contact.html" class="btn btn-outline-success btn-more">
               <i class="fas fa-plus pr-2"></i>
               More
             </a>

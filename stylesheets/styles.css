@@ -30,7 +30,6 @@ body {
   background-color: var(--dracula-orchid);
   font-family: 'Quicksand', cursive;
   color: white;
-  padding-top: 72px;
 }
 
 /* Extending the orginal class from Bootstrap */
@@ -38,6 +37,7 @@ body {
   background-color: var(--dracula-orchid);
 }
 
+/* RESPONSIVE */
 .carousel-item {
   height: 100vh;
   min-height: 350px;
@@ -49,6 +49,7 @@ body {
   background-attachment: fixed;
 }
 
+/* RESPONSIVE */
 .main-text {
   position: absolute;
   text-align: center;
@@ -64,25 +65,17 @@ body {
   max-width: 250px;
 }
 
+/* RESPONSIVE */
 .title {
   font-family: 'Great Vibes', cursive;
-  font-size: 96px;
+  font-size: 5rem;
 }
 
-#discover {
+.discover {
   text-align: center;
 }
 
-#discover a {
-  text-decoration: none;
-  color: white;
-}
-
-#discover a:hover {
-  text-decoration: none;
-}
-
-#discover img {
+.discover img {
   border-radius: 10px;
 }
 
@@ -137,7 +130,20 @@ footer a:hover {
 }
 
 /* Extra small devices (portrait phones, less than 576px) */
-/* No media query for `xs` since this is the default in Bootstrap */
+@media (max-width: 575px) {
+  .btn-more {
+    margin-bottom: 15px;
+  }
+
+  .download-button {
+    margin-top: 15px;
+  }
+
+  /* Extending the orginal class from Bootstrap */
+  .navbar-nav .nav-link {
+    text-align: center;
+  }
+}
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
