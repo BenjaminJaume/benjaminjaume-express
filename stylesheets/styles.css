@@ -29,7 +29,6 @@ html {
 body {
   background-color: var(--dracula-orchid);
   font-family: 'Quicksand', cursive;
-  color: white;
 }
 
 /* Extending the orginal class from Bootstrap */
@@ -127,6 +126,17 @@ footer a:hover {
 
 .whatsapp-icon:hover {
   color: var(--whatsapp-color);
+  cursor: pointer;
+}
+
+.whatsapp-icon:focus {
+  /* border-color: #ccc; */
+  outline: 0;
+}
+
+.popover-header {
+  color: var(--dracula-orchid);
+  text-align: center;
 }
 
 /* Extra small devices (portrait phones, less than 576px) */

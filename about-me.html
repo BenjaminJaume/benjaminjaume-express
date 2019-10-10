@@ -38,7 +38,12 @@
     <link href="./stylesheets/librairies/google-fonts.css" rel="stylesheet" />
 
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="./stylesheets/librairies/all.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+      integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ="
+      crossorigin="anonymous"
+    />
 
     <!-- Animate.css -->
     <link rel="stylesheet" href="./stylesheets/librairies/animate.min.css" />
@@ -48,7 +53,7 @@
   </head>
 
   <body>
-    <header class="">
+    <header>
       <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
         <a class="navbar-brand mx-auto pr-3" href="#">Benjamin Jaume</a>
         <button
@@ -276,21 +281,32 @@
       </div>
 
       <div class="brand-icons py-2">
-        <a href="#" class="linkedin-icon px-1">
+        <a
+          href="https://www.linkedin.com/in/benjamin-jaume/"
+          class="linkedin-icon px-1"
+        >
           <i class="fab fa-linkedin"></i>
         </a>
 
-        <a href="#" class="github-icon px-1">
+        <a href="https://github.com/BenjaminJaume" class="github-icon px-1">
           <i class="fab fa-github-square"></i>
         </a>
 
-        <a href="#" class="facebook-icon px-1">
+        <a href="https://www.facebook.com/ben.jaume" class="facebook-icon px-1">
           <i class="fab fa-facebook-square"></i>
         </a>
 
-        <a href="#" class="whatsapp-icon px-1">
-          <i class="fab fa-whatsapp-square"></i>
-        </a>
+        <a
+          tabindex="0"
+          class="whatsapp-icon px-1"
+          role="button"
+          data-trigger="focus"
+          data-toggle="popover"
+          data-placement="top"
+          title="✉ Message me"
+          data-content="+61 4 32 586 316"
+          ><i class="fab fa-whatsapp-square"></i
+        ></a>
       </div>
 
       <div class="pt-2">
@@ -299,7 +315,9 @@
           class="btn btn-outline-success"
           href="#"
           role="button"
-          >Back to top</a
+        >
+          Back to top
+          <span class="ml-2">☝</span></a
         >
       </div>
     </footer>
