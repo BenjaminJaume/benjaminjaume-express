@@ -135,8 +135,8 @@ footer a:hover {
   outline: 0;
 }
 
-.popover-header {
-  color: var(--dracula-orchid);
+.popover {
+  /* color: var(--dracula-orchid); */
   text-align: center;
 }
 

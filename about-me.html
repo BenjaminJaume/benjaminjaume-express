@@ -92,7 +92,7 @@
                 <i class="material-icons align-bottom">
                   folder
                 </i>
-                Portefolio</a
+                Portfolio</a
               >
             </li>
             <li class="nav-item">
@@ -144,7 +144,7 @@
             Self-consciousness, self-development food and sport
           </p>
 
-          <a href="#footer" class="btn btn-outline-warning btn-lg mt-4"
+          <a href="#first-event" class="btn btn-outline-warning btn-lg mt-4"
             >Show me the beginning
             <i class="fas fa-arrow-down ml-2"></i>
           </a>
@@ -257,7 +257,10 @@
                 had were based on C/C++ micro-controllers, Arduino and Labview.
               </p>
             </li>
-            <li class="timeline-item bg-light rounded ml-3 p-4 shadow">
+            <li
+              id="first-event"
+              class="timeline-item bg-light rounded ml-3 p-4 shadow"
+            >
               <div class="timeline-arrow"></div>
               <h5>Where everything started</h5>
               <span><i class="far fa-clock mr-1"></i>2010</span>
@@ -304,9 +307,21 @@
           data-toggle="popover"
           data-placement="top"
           title="✉ Message me"
-          data-content="+61 4 32 586 316"
+          data-html="true"
+          data-content="<a href='https://api.whatsapp.com/send?phone=61432586316'>+61 4 32 586 316</a>"
+          onclick="copyPhoneNumber()"
           ><i class="fab fa-whatsapp-square"></i
         ></a>
+
+        <a
+          role="button"
+          class="btn popovers"
+          data-toggle="popover"
+          title=""
+          data-content="test content <a href='index.html' title='test add link'>link on content</a>"
+          data-original-title="test title"
+          >test link</a
+        >
       </div>
 
       <div class="pt-2">
