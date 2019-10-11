@@ -29,6 +29,7 @@ html {
 body {
   background-color: var(--dracula-orchid);
   font-family: 'Quicksand', cursive;
+  margin-top: 56px;
 }
 
 /* Extending the orginal class from Bootstrap */
@@ -36,7 +37,6 @@ body {
   background-color: var(--dracula-orchid);
 }
 
-/* RESPONSIVE */
 .carousel-item {
   height: 100vh;
   min-height: 350px;
@@ -48,7 +48,6 @@ body {
   background-attachment: fixed;
 }
 
-/* RESPONSIVE */
 .main-text {
   position: absolute;
   text-align: center;
@@ -64,8 +63,7 @@ body {
   max-width: 250px;
 }
 
-/* RESPONSIVE */
-.title {
+.title-index {
   font-family: 'Great Vibes', cursive;
   font-size: 5rem;
 }
@@ -80,8 +78,13 @@ body {
 }
 
 .discover-divider {
-  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+  margin: 5rem 0;
   background-color: white;
+}
+
+/* Extending the orginal class from Bootstrap */
+.jumbotron {
+  background-color: var(--silver);
 }
 
 footer {
@@ -135,8 +138,10 @@ footer a:hover {
   outline: 0;
 }
 
+/* I can't select the body of the popover for
+the WhatsApp number, so I am making a general rule */
 .popover {
-  /* color: var(--dracula-orchid); */
+  color: var(--dracula-orchid);
   text-align: center;
 }
 

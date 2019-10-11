@@ -92,7 +92,7 @@
                 <i class="material-icons align-bottom">
                   folder
                 </i>
-                Portefolio</a
+                Portfolio</a
               >
             </li>
             <li class="nav-item">
@@ -174,6 +174,9 @@
             </div>
           </div>
         </div>
+        <!-- CAROUSEL'S CONTROL ARROWS -->
+        <!-- It can be useful to keep it if I need them in the future -->
+
         <!-- <a
           class="carousel-control-prev"
           href="#carouselExampleIndicators"
@@ -192,11 +195,12 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="sr-only">Next</span>
         </a> -->
+        <!-- CAROUSEL'S CONTROL ARROWS -->
       </div>
       <div
         class="d-flex flex-column main-text justify-content-center align-items-center"
       >
-        <h3 class="title animated fadeInDown">Hi!</h3>
+        <h3 class="title-index animated fadeInDown">Hi!</h3>
         <h4>I'm Benjamin Jaume</h4>
         <h5>Front-End Developer</h5>
 
@@ -324,27 +328,40 @@
       </div>
     </section>
 
-    <footer class="bg-light">
+    <footer id="footer" class="bg-light">
       <div id="message-bottom" class="message-bottom pt-2">
         <p>Created with ❤ by Benjamin Jaume</p>
       </div>
 
       <div class="brand-icons py-2">
-        <a href="#" class="linkedin-icon px-1">
+        <a
+          href="https://www.linkedin.com/in/benjamin-jaume/"
+          class="linkedin-icon px-1"
+        >
           <i class="fab fa-linkedin"></i>
         </a>
 
-        <a href="#" class="github-icon px-1">
+        <a href="https://github.com/BenjaminJaume" class="github-icon px-1">
           <i class="fab fa-github-square"></i>
         </a>
 
-        <a href="#" class="facebook-icon px-1">
+        <a href="https://www.facebook.com/ben.jaume" class="facebook-icon px-1">
           <i class="fab fa-facebook-square"></i>
         </a>
 
-        <a href="#" class="whatsapp-icon px-1">
-          <i class="fab fa-whatsapp-square"></i>
-        </a>
+        <a
+          tabindex="0"
+          class="whatsapp-icon px-1"
+          role="button"
+          data-trigger="focus"
+          data-toggle="popover"
+          data-placement="top"
+          title="✉ Message me"
+          data-content="<a href='https://api.whatsapp.com/send?phone=61432586316'>+61 4 32 586 316</a>"
+          data-html="true"
+          onclick="copyPhoneNumber()"
+          ><i class="fab fa-whatsapp-square"></i
+        ></a>
       </div>
 
       <div class="pt-2">
@@ -353,7 +370,9 @@
           class="btn btn-outline-success"
           href="#"
           role="button"
-          >Back to top</a
+        >
+          Back to top
+          <span class="ml-2">☝</span></a
         >
       </div>
     </footer>
