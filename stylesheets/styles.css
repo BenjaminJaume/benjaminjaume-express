@@ -37,8 +37,17 @@ body {
   background-color: var(--dracula-orchid);
 }
 
+/* Extending the orginal class from Bootstrap */
+.navbar-nav .nav-link {
+  text-align: center;
+}
+
+.download-button {
+  /* Do something */
+}
+
 .carousel-item {
-  height: 90vh;
+  height: 92vh;
   min-height: 350px;
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
@@ -96,11 +105,6 @@ body {
   margin-top: 2rem;
 }
 
-/* Extending the orginal class from Bootstrap */
-.navbar-nav .nav-link {
-  text-align: center;
-}
-
 .icon-portfolio {
   font-weight: 1000;
   margin: 5px;
@@ -132,6 +136,7 @@ footer a:hover {
   text-decoration: none;
 }
 
+/* Reset the default font for the message at the bottom */
 #message-bottom {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
     'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji',
