@@ -1,0 +1,78 @@
+.carousel-item {
+  height: 92vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.main-text {
+  position: absolute;
+  text-align: center;
+  top: 15vh;
+  width: 100%;
+  color: white;
+}
+
+/* Class for the picture of me at index.html */
+.circle {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  max-width: 250px;
+}
+
+.title-index {
+  font-family: 'Great Vibes', cursive;
+  font-size: 5rem;
+}
+
+.discover {
+  text-align: center;
+  color: white;
+}
+
+.discover img {
+  border-radius: 10px;
+}
+
+.discover-divider {
+  margin: 3rem 0;
+  background-color: white;
+}
+
+.btn-more {
+  margin-bottom: 2rem;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575px) {
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .btn-more {
+    margin-bottom: autp;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .discover-heading {
+    margin-top: 7rem;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
+
+
+/*# sourceMappingURL=/stylesheets.7ba52203.css.map */

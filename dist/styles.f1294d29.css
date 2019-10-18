@@ -27,8 +27,7 @@ html {
 }
 
 body {
-  background-color: red;
-  /* background-color: var(--dracula-orchid); */
+  background-color: var(--dracula-orchid);
   font-family: 'Quicksand', cursive;
   margin-top: 56px;
 }
@@ -38,78 +37,18 @@ body {
   background-color: var(--dracula-orchid);
 }
 
-.carousel-item {
-  height: 100vh;
-  min-height: 350px;
-  background: no-repeat center center scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-attachment: fixed;
-}
-
-.main-text {
-  position: absolute;
-  text-align: center;
-  top: 15vh;
-  width: 100%;
-  color: white;
-}
-
-/* Class for the picture of me at index.html */
-.circle {
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  border-radius: 50%;
-  max-width: 250px;
-}
-
-.title-index {
-  font-family: 'Great Vibes', cursive;
-  font-size: 5rem;
-}
-
-.discover {
-  text-align: center;
-  color: white;
-}
-
-.discover img {
-  border-radius: 10px;
-}
-
-.discover-divider {
-  margin: 5rem 0;
-  background-color: white;
-}
-
-/* Extending the orginal class from Bootstrap */
-.jumbotron {
-  background-color: var(--silver);
-}
-
-.btn-more {
-  margin-bottom: 15px;
-}
-
-.download-button {
-  margin-top: 15px;
-}
-
 /* Extending the orginal class from Bootstrap */
 .navbar-nav .nav-link {
   text-align: center;
 }
 
-.icon-portfolio {
-  font-weight: 1000;
-  margin: 5px;
+.download-button {
+  margin-top: 2rem;
 }
 
-.icon-portfolio img {
-  width: 40px;
-  height: 40px;
+/* Extending the orginal class from Bootstrap */
+.jumbotron {
+  background-color: var(--silver);
 }
 
 .br-50 {
@@ -133,6 +72,7 @@ footer a:hover {
   text-decoration: none;
 }
 
+/* Reset the default font for the message at the bottom */
 #message-bottom {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
     'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji',
@@ -180,10 +120,6 @@ the WhatsApp number, so I am making a general rule */
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
-  .btn-more {
-    margin-bottom: autp;
-  }
-
   .download-button {
     margin-top: auto;
   }
@@ -200,9 +136,6 @@ the WhatsApp number, so I am making a general rule */
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-  .discover-heading {
-    margin-top: 7rem;
-  }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
