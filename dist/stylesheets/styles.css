@@ -1,0 +1,212 @@
+:root {
+  /* Flat UI Palette v1 */
+  --midnight-blue: #2c3e50;
+  --wet-asphalt: #34495e;
+  --emerald: #2ecc71;
+  --dracula-orchid: #2d3436;
+  --silver: #bdc3c7;
+  --clouds: #ecf0f1;
+  --belize-hole: #2980b9;
+  --alizarin: #e74c3c;
+  --carrot: #e67e22;
+  --sun-flower: #f1c40f;
+  --peter-river: #3498db;
+  --amethyst: #9b59b6;
+  --concrete: #95a5a6;
+
+  /* Colors */
+  --indigo: #3f00ff;
+  --linkedin-color: #0077b5;
+  --github-color: #24292e;
+  --facebook-color: #4267b2;
+  --whatsapp-color: #00e676;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--dracula-orchid);
+  font-family: 'Quicksand', cursive;
+  margin-top: 56px;
+}
+
+/* Extending the orginal class from Bootstrap */
+.navbar {
+  background-color: var(--dracula-orchid);
+}
+
+.carousel-item {
+  height: 90vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.main-text {
+  position: absolute;
+  text-align: center;
+  top: 15vh;
+  width: 100%;
+  color: white;
+}
+
+/* Class for the picture of me at index.html */
+.circle {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  max-width: 250px;
+}
+
+.title-index {
+  font-family: 'Great Vibes', cursive;
+  font-size: 5rem;
+}
+
+.discover {
+  text-align: center;
+  color: white;
+}
+
+.discover img {
+  border-radius: 10px;
+}
+
+.discover-divider {
+  margin: 3rem 0;
+  background-color: white;
+}
+
+/* Extending the orginal class from Bootstrap */
+.jumbotron {
+  background-color: var(--silver);
+}
+
+.btn-more {
+  margin-bottom: 2rem;
+}
+
+.download-button {
+  margin-top: 2rem;
+}
+
+/* Extending the orginal class from Bootstrap */
+.navbar-nav .nav-link {
+  text-align: center;
+}
+
+.icon-portfolio {
+  font-weight: 1000;
+  margin: 5px;
+}
+
+.icon-portfolio img {
+  width: 40px;
+  height: 40px;
+}
+
+.br-50 {
+  border-radius: 50%;
+}
+
+footer {
+  color: var(--silver);
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+footer a {
+  font-size: 3em;
+  text-decoration: none;
+  color: var(--silver);
+}
+
+footer a:hover {
+  text-decoration: none;
+}
+
+#message-bottom {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+#message-bottom:hover {
+  -webkit-animation: heartBeat 1s;
+  animation: heartBeat 1s;
+  cursor: default;
+}
+
+.linkedin-icon:hover {
+  color: var(--linkedin-color);
+}
+
+.github-icon:hover {
+  color: var(--github-color);
+}
+
+.facebook-icon:hover {
+  color: var(--facebook-color);
+}
+
+.whatsapp-icon:hover {
+  color: var(--whatsapp-color);
+  cursor: pointer;
+}
+
+.whatsapp-icon:focus {
+  /* border-color: #ccc; */
+  outline: 0;
+}
+
+/* I can't select the body of the popover for
+the WhatsApp number, so I am making a general rule */
+.popover {
+  color: var(--dracula-orchid);
+  text-align: center;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575px) {
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .btn-more {
+    margin-bottom: autp;
+  }
+
+  .download-button {
+    margin-top: auto;
+  }
+
+  /* Extending the orginal class from Bootstrap
+  .navbar-nav .nav-link {
+    text-align: ;
+  } */
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .discover-heading {
+    margin-top: 7rem;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
+
+
+/*# sourceMappingURL=/styles.css.map */

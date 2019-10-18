@@ -38,7 +38,7 @@ body {
 }
 
 .carousel-item {
-  height: 100vh;
+  height: 90vh;
   min-height: 350px;
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
@@ -56,6 +56,7 @@ body {
   color: white;
 }
 
+/* Class for the picture of me at index.html */
 .circle {
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -78,13 +79,26 @@ body {
 }
 
 .discover-divider {
-  margin: 5rem 0;
+  margin: 3rem 0;
   background-color: white;
 }
 
 /* Extending the orginal class from Bootstrap */
 .jumbotron {
   background-color: var(--silver);
+}
+
+.btn-more {
+  margin-bottom: 2rem;
+}
+
+.download-button {
+  margin-top: 2rem;
+}
+
+/* Extending the orginal class from Bootstrap */
+.navbar-nav .nav-link {
+  text-align: center;
 }
 
 .icon-portfolio {
@@ -161,22 +175,22 @@ the WhatsApp number, so I am making a general rule */
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575px) {
-  .btn-more {
-    margin-bottom: 15px;
-  }
-
-  .download-button {
-    margin-top: 15px;
-  }
-
-  /* Extending the orginal class from Bootstrap */
-  .navbar-nav .nav-link {
-    text-align: center;
-  }
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
+  .btn-more {
+    margin-bottom: autp;
+  }
+
+  .download-button {
+    margin-top: auto;
+  }
+
+  /* Extending the orginal class from Bootstrap
+  .navbar-nav .nav-link {
+    text-align: ;
+  } */
 }
 
 /* Medium devices (tablets, 768px and up) */
