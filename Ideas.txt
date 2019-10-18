@@ -93,6 +93,15 @@ NPM
 Node.js
 StackOverflow
 SQL
+AJAX
+JSON
+Clarifai API
+Html (Media Center) 
+Express
+Redux
+Google Maps API
+
+Tools:
 Coffee
 Spotify
 Music
