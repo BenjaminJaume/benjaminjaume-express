@@ -43,7 +43,11 @@ body {
 }
 
 .download-button {
-  margin-top: 2rem;
+  margin: 1rem;
+}
+
+.download-button button {
+  border-radius: 40px;
 }
 
 /* Extending the orginal class from Bootstrap */
@@ -120,22 +124,16 @@ the WhatsApp number, so I am making a general rule */
 }
 
 /* Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575px) {
-}
+/* @media (max-width: 575px) {
+} */
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
-  .download-button {
-    margin-top: auto;
-  }
 }
 
 /* Column management */
 /* Small devices (landscape phones) */
 @media (min-width: 576px) and (max-width: 767.98px) {
-  .download-button {
-    margin-top: auto;
-  }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -149,6 +147,9 @@ the WhatsApp number, so I am making a general rule */
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+  .download-button {
+    margin: 0;
+  }
 }
 
 /* Column management */
