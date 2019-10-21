@@ -101,6 +101,7 @@ Html (Media Center)
 Express
 Redux
 Google Maps API
+IntelXDK
 
 Tools:
 Coffee

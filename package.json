@@ -1,10 +1,10 @@
 {
   "name": "benjaminjaume",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/BenjaminJaume/benjaminjaume/issues"
   },
-  "homepage": "https://github.com/BenjaminJaume/benjaminjaume#readme",
+  "homepage": "https://github.com/BenjaminJaume/index.html",
   "dependencies": {
     "animate": "^1.0.0",
     "bootstrap": "^4.3.1",
@@ -25,5 +25,6 @@
     "jquery": "^3.4.1",
     "popper": "^1.0.1",
     "popper.js": "^1.16.0"
-  }
+  },
+  "description": ""
 }

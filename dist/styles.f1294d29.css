@@ -49,6 +49,7 @@ body {
 /* Extending the orginal class from Bootstrap */
 .jumbotron {
   background-color: var(--silver);
+  margin-bottom: 0;
 }
 
 .br-50 {
@@ -123,19 +124,32 @@ the WhatsApp number, so I am making a general rule */
   .download-button {
     margin-top: auto;
   }
+}
 
-  /* Extending the orginal class from Bootstrap
-  .navbar-nav .nav-link {
-    text-align: ;
-  } */
+/* Column management */
+/* Small devices (landscape phones) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .download-button {
+    margin-top: auto;
+  }
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 }
 
+/* Column management */
+/* Medium devices (tablets) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+}
+
+/* Column management */
+/* Large devices (desktops) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
