@@ -49,6 +49,7 @@ body {
 /* Extending the orginal class from Bootstrap */
 .jumbotron {
   background-color: var(--silver);
+  margin-bottom: 0;
 }
 
 .br-50 {
