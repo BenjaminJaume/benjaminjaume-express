@@ -5,7 +5,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta
-      name="Moreport"
+      name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
 
@@ -26,7 +26,7 @@
       sizes="16x16"
       href="./images/favicon/favicon-16x16.png"
     />
-    <!-- <link rel="manifest" href="./images/favicon/site.webmanifest" /> -->
+    <link rel="manifest" href="./images/favicon/site.webmanifest" />
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="./stylesheets/librairies/bootstrap.min.css" />
@@ -48,6 +48,7 @@
     <!-- Animate.css -->
     <link rel="stylesheet" href="./stylesheets/librairies/animate.min.css" />
 
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="./stylesheets/styles.css" />
     <link rel="stylesheet" href="./stylesheets/portfolio.css" />
   </head>
@@ -55,7 +56,9 @@
   <body>
     <header>
       <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
-        <a class="navbar-brand mx-auto pr-3" href="#">Benjamin Jaume</a>
+        <a class="navbar-brand mx-auto pr-3" href="./index.html"
+          >Benjamin Jaume</a
+        >
         <button
           class="navbar-toggler"
           type="button"
@@ -71,7 +74,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mx-auto ">
             <li class="nav-item">
-              <a class="nav-link" href="index.html">
+              <a class="nav-link" href="./index.html">
                 <i class="material-icons align-bottom">
                   home
                 </i>
@@ -79,15 +82,15 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about-me.html">
+              <a class="nav-link" href="./about-me.html">
                 <i class="material-icons align-bottom">
                   info
                 </i>
-                About me
-              </a>
+                About me</a
+              >
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="portfolio.html">
+              <a class="nav-link" href="./portfolio.html">
                 <i class="material-icons align-bottom">
                   folder
                 </i>
@@ -96,7 +99,7 @@
               <span class="sr-only">(current)</span>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="resume.html">
+              <a class="nav-link" href="./resume.html">
                 <i class="material-icons align-bottom">
                   list_alt
                 </i>
@@ -104,7 +107,7 @@
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contact.html">
+              <a class="nav-link" href="./contact.html">
                 <i class="material-icons align-bottom">
                   person
                 </i>
@@ -113,12 +116,14 @@
             </li>
           </ul>
 
-          <button class="btn btn-success download-button" type="button">
-            <i class="material-icons align-bottom">
-              save_alt
-            </i>
-            Resume
-          </button>
+          <div class="d-flex justify-content-center download-button">
+            <button class="btn btn-success" type="button">
+              <i class="material-icons align-bottom">
+                save_alt
+              </i>
+              Resume
+            </button>
+          </div>
         </div>
       </nav>
     </header>
@@ -140,1301 +145,1205 @@
 
     <!-- START CARD-DECK -->
     <div class="card-deck m-5">
-      <!-- NEW CARD -->
-      <div class="card">
-        <img src="./images/javascript.jpg" class="card-img-top" />
-        <div class="card-body">
-          <h5 class="card-title text-center">Face Recognition App</h5>
-          <p class="card-text text-center">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
-          </p>
-          <div class="d-flex justify-content-around flex-wrap">
-            <div class="icon-portfolio font-weight-bold">
-              <img
-                src="https://miro.medium.com/max/500/1*cPh7ujRIfcHAy4kW2ADGOw.png"
-                alt="Logo React"
-              />
-              <span>React</span>
-            </div>
-            <div class="icon-portfolio font-weight-bold">
-              <img
-                src="https://raw.githubusercontent.com/voodootikigod/logo.js/master/js.png"
-                alt="Logo Javascript"
-              />
-              <span>Javascript</span>
-            </div>
-            <div class="icon-portfolio font-weight-bold">
-              <img
-                src="https://raw.githubusercontent.com/voodootikigod/logo.js/master/js.png"
-                alt="Logo Node.js"
-              />
-              <span>Node.js</span>
-            </div>
-          </div>
-        </div>
-        <div class="card-footer">
-          <div class="d-flex justify-content-between align-items-center">
-            <div class="btn-group">
-              <a
-                href="./portfolio/project-1.html"
-                class="btn btn-sm btn-outline-success"
-                >More
-              </a>
-              <a
-                href="https://github.com/BenjaminJaume/facerecognitionapp"
-                alt="Github page"
-                target="_blank"
-                class="btn btn-sm btn-outline-success"
-              >
-                <i class="fab fa-github"></i>
-              </a>
-              <a
-                href="https://serene-coast-32584.herokuapp.com/"
-                alt="Open website in a new tab"
-                target="_blank"
-                class="btn btn-sm btn-outline-success"
-              >
-                <i class="fas fa-external-link-alt"></i>
-              </a>
-            </div>
-
-            <small class="text-muted"
-              ><i class="far fa-clock mr-1"></i>2019</small
-            >
-          </div>
-        </div>
-        <!-- END CARD -->
-      </div>
-
-      <!-- NEW CARD -->
-      <div class="card">
-        <img src="./images/taxi.jpg" class="card-img-top" />
-        <div class="card-body">
-          <h5 class="card-title text-center">Taxi</h5>
-          <p class="card-text text-center">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
-          </p>
-          <div class="d-flex justify-content-around flex-wrap">
-            <div class="icon-portfolio font-weight-bold">
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Visual_Studio_2017_Logo.svg/1024px-Visual_Studio_2017_Logo.svg.png"
-                alt="Logo Visual Studio"
-              />
-              <span>Visual Studio</span>
-            </div>
-            <div class="icon-portfolio font-weight-bold">
-              <img src="./images/languages/c++.png" alt="Logo C++" />
-              <span>C++</span>
-            </div>
-          </div>
-        </div>
-        <div class="card-footer">
-          <div class="d-flex justify-content-between align-items-center">
-            <div class="btn-group">
-              <a
-                href="./portfolio/project-1.html"
-                class="btn btn-sm btn-outline-success"
-                >More
-              </a>
-              <a
-                href="https://github.com/BenjaminJaume/ParcelDeliveries"
-                alt="Github page"
-                target="_blank"
-                class="btn btn-sm btn-outline-success"
-              >
-                <i class="fab fa-github"></i>
-              </a>
-              <a
-                href="#"
-                alt="Open website in a new tab"
-                target="_blank"
-                class="btn btn-sm btn-outline-success disabled"
-              >
-                <i class="fas fa-external-link-alt"></i>
-              </a>
-            </div>
-
-            <small class="text-muted"
-              ><i class="far fa-clock mr-1"></i>2019</small
-            >
-          </div>
-        </div>
-        <!-- END CARD -->
-      </div>
-
-      <!-- NEW CARD -->
-      <div class="card">
-        <svg
-          class="bd-placeholder-img card-img-top"
-          width="100%"
-          height="225"
-          xmlns="http://www.w3.org/2000/svg"
-          preserveAspectRatio="xMidYMid slice"
-          focusable="false"
-          role="img"
-          aria-label="Placeholder: Thumbnail"
-        >
-          <rect width="100%" height="100%" fill="#55595c"></rect>
-        </svg>
-        <div class="card-body">
-          <h5 class="card-title text-center">Self Driving Car</h5>
-          <p class="card-text text-center">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
-          </p>
-          <div class="d-flex justify-content-around flex-wrap">
-            <div class="icon-portfolio font-weight-bold ">
-              <img
-                src="https://ap-sync.github.io/media/images/arduino_logo.png"
-                alt="Logo Arduino"
-                class="br-50"
-              />
-              <span>Arduino</span>
-            </div>
-            <div class="icon-portfolio font-weight-bold">
-              <img src="./images/languages/c++.png" alt="Logo C++" />
-              <span>C++</span>
-            </div>
-          </div>
-        </div>
-        <div class="card-footer">
-          <div class="d-flex justify-content-between align-items-center">
-            <div class="btn-group">
-              <a
-                href="./portfolio/project-1.html"
-                class="btn btn-sm btn-outline-success"
-                >More
-              </a>
-              <a
-                href="#"
-                alt="Github page"
-                target="_blank"
-                class="btn btn-sm btn-outline-success disabled"
-              >
-                <i class="fab fa-github"></i>
-              </a>
-              <a
-                href="#"
-                alt="Open website in a new tab"
-                target="_blank"
-                class="btn btn-sm btn-outline-success disabled"
-              >
-                <i class="fas fa-external-link-alt"></i>
-              </a>
-            </div>
-
-            <small class="text-muted"
-              ><i class="far fa-clock mr-1"></i>2019</small
-            >
-          </div>
-        </div>
-        <!-- END CARD -->
-      </div>
-
-      <!-- NEW CARD -->
-      <div class="card">
-        <svg
-          class="bd-placeholder-img card-img-top"
-          width="100%"
-          height="225"
-          xmlns="http://www.w3.org/2000/svg"
-          preserveAspectRatio="xMidYMid slice"
-          focusable="false"
-          role="img"
-          aria-label="Placeholder: Thumbnail"
-        >
-          <rect width="100%" height="100%" fill="#55595c"></rect>
-        </svg>
-        <div class="card-body">
-          <h5 class="card-title text-center">
-            Optic Fiber Infrastructure Design
-          </h5>
-          <p class="card-text text-center">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
-          </p>
-          <div class="d-flex justify-content-around flex-wrap">
-            <div class="icon-portfolio font-weight-bold">
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Visual_Studio_2017_Logo.svg/1024px-Visual_Studio_2017_Logo.svg.png"
-                alt="Logo Autocad"
-              />
-              <span>Autocad</span>
-            </div>
-            <div class="icon-portfolio font-weight-bold">
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Visual_Studio_2017_Logo.svg/1024px-Visual_Studio_2017_Logo.svg.png"
-                alt="Logo QGIS"
-              />
-              <span>QGIS</span>
-            </div>
-          </div>
-        </div>
-        <div class="card-footer">
-          <div class="d-flex justify-content-between align-items-center">
-            <div class="btn-group">
-              <a
-                href="./portfolio/project-1.html"
-                class="btn btn-sm btn-outline-success"
-                >More
-              </a>
-              <a
-                href="#"
-                alt="Github page"
-                target="_blank"
-                class="btn btn-sm btn-outline-success disabled"
-              >
-                <i class="fab fa-github"></i>
-              </a>
-              <a
-                href="#"
-                alt="Open website in a new tab"
-                target="_blank"
-                class="btn btn-sm btn-outline-success disabled"
-              >
-                <i class="fas fa-external-link-alt"></i>
-              </a>
-            </div>
-
-            <small class="text-muted"
-              ><i class="far fa-clock mr-1"></i>2019</small
-            >
-          </div>
-        </div>
-        <!-- END CARD -->
-      </div>
-
-      <!-- NEW CARD -->
-      <div class="card">
-        <svg
-          class="bd-placeholder-img card-img-top"
-          width="100%"
-          height="225"
-          xmlns="http://www.w3.org/2000/svg"
-          preserveAspectRatio="xMidYMid slice"
-          focusable="false"
-          role="img"
-          aria-label="Placeholder: Thumbnail"
-        >
-          <rect width="100%" height="100%" fill="#55595c"></rect>
-        </svg>
-        <div class="card-body">
-          <h5 class="card-title text-center">Bluetooth Robotic Arm</h5>
-          <p class="card-text text-center">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
-          </p>
-          <div class="d-flex justify-content-around flex-wrap">
-            <div class="icon-portfolio font-weight-bold">
-              <img
-                src="https://www.eclipse.org/ecd/img/eclipse256.png"
-                alt="Logo Eclipse"
-              />
-              <span>Eclipse</span>
-            </div>
-            <div class="icon-portfolio font-weight-bold">
-              <img
-                src="https://image.flaticon.com/icons/png/512/174/174836.png"
-                alt="Logo Android"
-              />
-              <span>Android</span>
-            </div>
-
-            <div class="icon-portfolio font-weight-bold">
-              <img
-                src="https://icon-library.net/images/java-icon-png/java-icon-png-2.jpg"
-                alt="Logo Java"
-              />
-              <span>Java</span>
-            </div>
-          </div>
-        </div>
-        <div class="card-footer">
-          <div class="d-flex justify-content-between align-items-center">
-            <div class="btn-group">
-              <a
-                href="./portfolio/project-1.html"
-                class="btn btn-sm btn-outline-success"
-                >More
-              </a>
-              <a
-                href="https://github.com/BenjaminJaume/ControleBrasRobot"
-                alt="Github page"
-                target="_blank"
-                class="btn btn-sm btn-outline-success"
-              >
-                <i class="fab fa-github"></i>
-              </a>
-              <a
-                href="#"
-                alt="Open website in a new tab"
-                target="_blank"
-                class="btn btn-sm btn-outline-success disabled"
-              >
-                <i class="fas fa-external-link-alt"></i>
-              </a>
-            </div>
-
-            <small class="text-muted"
-              ><i class="far fa-clock mr-1"></i>2019</small
-            >
-          </div>
-        </div>
-        <!-- END CARD -->
-      </div>
-
-      <!-- NEW CARD -->
-      <div class="card">
-        <svg
-          class="bd-placeholder-img card-img-top"
-          width="100%"
-          height="225"
-          xmlns="http://www.w3.org/2000/svg"
-          preserveAspectRatio="xMidYMid slice"
-          focusable="false"
-          role="img"
-          aria-label="Placeholder: Thumbnail"
-        >
-          <rect width="100%" height="100%" fill="#55595c"></rect>
-        </svg>
-        <div class="card-body">
-          <h5 class="card-title text-center">C programs</h5>
-          <p class="card-text text-center">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
-          </p>
-          <div class="d-flex justify-content-around flex-wrap">
-            <div class="icon-portfolio font-weight-bold">
-              <img
-                src="https://www.eclipse.org/ecd/img/eclipse256.png"
-                alt="Logo Eclipse"
-              />
-              <span>Eclipse</span>
-            </div>
-            <div class="icon-portfolio font-weight-bold">
-              <img
-                src="https://cdn.iconscout.com/icon/free/png-512/c-programming-569564.png"
-                alt="Logo C"
-              />
-              <span>C</span>
-            </div>
-          </div>
-        </div>
-        <div class="card-footer">
-          <div class="d-flex justify-content-between align-items-center">
-            <div class="btn-group">
-              <a
-                href="./portfolio/project-1.html"
-                class="btn btn-sm btn-outline-success"
-                >More
-              </a>
-              <a
-                href="https://github.com/BenjaminJaume/C-programs"
-                alt="Github page"
-                target="_blank"
-                class="btn btn-sm btn-outline-success"
-              >
-                <i class="fab fa-github"></i>
-              </a>
-              <a
-                href="#"
-                alt="Open website in a new tab"
-                target="_blank"
-                class="btn btn-sm btn-outline-success disabled"
-              >
-                <i class="fas fa-external-link-alt"></i>
-              </a>
-            </div>
-
-            <small class="text-muted"
-              ><i class="far fa-clock mr-1"></i>2019</small
-            >
-          </div>
-        </div>
-        <!-- END CARD -->
-      </div>
-
-      <!-- NEW CARD -->
-      <div class="card">
-        <svg
-          class="bd-placeholder-img card-img-top"
-          width="100%"
-          height="225"
-          xmlns="http://www.w3.org/2000/svg"
-          preserveAspectRatio="xMidYMid slice"
-          focusable="false"
-          role="img"
-          aria-label="Placeholder: Thumbnail"
-        >
-          <rect width="100%" height="100%" fill="#55595c"></rect>
-        </svg>
-        <div class="card-body">
-          <h5 class="card-title text-center">Bash on Linux</h5>
-          <p class="card-text text-center">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
-          </p>
-          <div class="d-flex justify-content-around flex-wrap">
-            <div class="icon-portfolio font-weight-bold">
-              <img
-                src="https://miro.medium.com/max/1024/0*xoF4pubIjvqOzk3U.png"
-                alt="Logo Bash"
-              />
-              <span>Bash</span>
-            </div>
-            <div class="icon-portfolio font-weight-bold">
-              <img
-                src="https://cdn3.iconfinder.com/data/icons/logos-brands-3/24/logo_brand_brands_logos_linux-512.png"
-                alt="Logo Linux"
-              />
-              <span>Linux</span>
-            </div>
-          </div>
-        </div>
-        <div class="card-footer">
-          <div class="d-flex justify-content-between align-items-center">
-            <div class="btn-group">
-              <a
-                href="./portfolio/project-1.html"
-                class="btn btn-sm btn-outline-success"
-                >More
-              </a>
-              <a
-                href="#"
-                alt="Github page"
-                target="_blank"
-                class="btn btn-sm btn-outline-success disabled"
-              >
-                <i class="fab fa-github"></i>
-              </a>
-              <a
-                href="#"
-                alt="Open website in a new tab"
-                target="_blank"
-                class="btn btn-sm btn-outline-success disabled"
-              >
-                <i class="fas fa-external-link-alt"></i>
-              </a>
-            </div>
-
-            <small class="text-muted"
-              ><i class="far fa-clock mr-1"></i>2019</small
-            >
-          </div>
-        </div>
-        <!-- END CARD -->
-      </div>
-
-      <!-- NEW CARD -->
-      <div class="card">
-        <svg
-          class="bd-placeholder-img card-img-top"
-          width="100%"
-          height="225"
-          xmlns="http://www.w3.org/2000/svg"
-          preserveAspectRatio="xMidYMid slice"
-          focusable="false"
-          role="img"
-          aria-label="Placeholder: Thumbnail"
-        >
-          <rect width="100%" height="100%" fill="#55595c"></rect>
-        </svg>
-        <div class="card-body">
-          <h5 class="card-title text-center">File Manager</h5>
-          <p class="card-text text-center">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
-          </p>
-          <div class="d-flex justify-content-around flex-wrap">
-            <div class="icon-portfolio font-weight-bold">
-              <img
-                src="https://2.bp.blogspot.com/-BIgMHuNq76g/WGQq1AMHWKI/AAAAAAAAEqA/iO9qME54wCYdYjOhEZveLeFMC9aCunCxgCLcB/s1600/batch-files.png"
-                alt="Logo Batch"
-              />
-              <span>Batch</span>
-            </div>
-
-            <div class="icon-portfolio font-weight-bold">
-              <img
-                src="https://bltt.org/wp-content/uploads/2009/07/win7.png"
-                alt="Logo Windows 7"
-              />
-              <span>Window 7</span>
-            </div>
-          </div>
-        </div>
-        <div class="card-footer">
-          <div class="d-flex justify-content-between align-items-center">
-            <div class="btn-group">
-              <a
-                href="./portfolio/project-1.html"
-                class="btn btn-sm btn-outline-success"
-                >More
-              </a>
-              <a
-                href="#"
-                alt="Github page"
-                target="_blank"
-                class="btn btn-sm btn-outline-success disabled"
-              >
-                <i class="fab fa-github"></i>
-              </a>
-              <a
-                href="#"
-                alt="Open website in a new tab"
-                target="_blank"
-                class="btn btn-sm btn-outline-success disabled"
-              >
-                <i class="fas fa-external-link-alt"></i>
-              </a>
-            </div>
-
-            <small class="text-muted"
-              ><i class="far fa-clock mr-1"></i>2019</small
-            >
-          </div>
-        </div>
-        <!-- END CARD -->
-      </div>
-
-      <!-- NEW CARD -->
-      <div class="card mb-4">
-        <svg
-          class="bd-placeholder-img card-img-top"
-          width="100%"
-          height="225"
-          xmlns="http://www.w3.org/2000/svg"
-          preserveAspectRatio="xMidYMid slice"
-          focusable="false"
-          role="img"
-          aria-label="Placeholder: Thumbnail"
-        >
-          <rect width="100%" height="100%" fill="#55595c"></rect>
-        </svg>
-        <div class="card-body">
-          <h5 class="card-title text-center">GUI in Python</h5>
-          <p class="card-text text-center">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
-          </p>
-          <div class="d-flex justify-content-around flex-wrap">
-            <div class="icon-portfolio font-weight-bold">
-              <img
-                src="http://www.clker.com/cliparts/b/0/0/b/11949995711012521407gtk.svg"
-                alt="Logo GTK+"
-              />
-              <span>GTK+</span>
-            </div>
-            <div class="icon-portfolio font-weight-bold">
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1024px-Python-logo-notext.svg.png"
-                alt="Logo Python"
-              />
-              <span>Python</span>
-            </div>
-            <div class="icon-portfolio font-weight-bold">
-              <img
-                src="https://avatars0.githubusercontent.com/u/1294177?s=400&v=4"
-                alt="Logo Raspberry"
-              />
-              <span>Raspberry</span>
-            </div>
-            <!-- <div class="icon-portfolio font-weight-bold">
-                      <img
-                        src="https://cdn0.iconfinder.com/data/icons/flat-round-system/512/debian-512.png"
-                        alt="Logo Raspbian"
-                      />
-                      <span>Raspbian</span>
-                    </div>
-                    <div class="icon-portfolio font-weight-bold">
-                      <img
-                        src="http://icons.iconarchive.com/icons/papirus-team/papirus-apps/512/glade-icon.png"
-                        alt="Logo Glade"
-                      />
-                      <span>Glade</span>
-                    </div> -->
-            <div class="icon-portfolio font-weight-bold">
-              <img
-                src="https://cdn0.iconfinder.com/data/icons/flat-round-system/512/debian-512.png"
-                alt="Logo More"
-              />
-              <span>More</span>
-            </div>
-          </div>
-        </div>
-        <div class="card-footer">
-          <div class="d-flex justify-content-between align-items-center">
-            <div class="btn-group">
-              <a
-                href="./portfolio/project-1.html"
-                class="btn btn-sm btn-outline-success"
-                >More
-              </a>
-              <a
-                href="#"
-                alt="Github page"
-                target="_blank"
-                class="btn btn-sm btn-outline-success disabled"
-              >
-                <i class="fab fa-github"></i>
-              </a>
-              <a
-                href="#"
-                alt="Open website in a new tab"
-                target="_blank"
-                class="btn btn-sm btn-outline-success disabled"
-              >
-                <i class="fas fa-external-link-alt"></i>
-              </a>
-            </div>
-
-            <small class="text-muted"
-              ><i class="far fa-clock mr-1"></i>2019</small
-            >
-          </div>
-        </div>
-        <!-- END CARD -->
-      </div>
-
-      <!-- NEW CARD -->
-      <div class="card mb-4">
-        <svg
-          class="bd-placeholder-img card-img-top"
-          width="100%"
-          height="225"
-          xmlns="http://www.w3.org/2000/svg"
-          preserveAspectRatio="xMidYMid slice"
-          focusable="false"
-          role="img"
-          aria-label="Placeholder: Thumbnail"
-        >
-          <rect width="100%" height="100%" fill="#55595c"></rect>
-        </svg>
-        <div class="card-body">
-          <h5 class="card-title text-center">Benjamin Jaume</h5>
-          <p class="card-text text-center">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
-          </p>
-          <div class="d-flex justify-content-around flex-wrap">
-            <div class="icon-portfolio font-weight-bold">
-              <img
-                src="https://cdn.freebiesupply.com/logos/large/2x/visual-studio-code-logo-png-transparent.png"
-                alt="Logo VS Code"
-              />
-              <span>VS Code</span>
-            </div>
-            <div class="icon-portfolio font-weight-bold">
-              <img
-                src="https://cdn.freebiesupply.com/logos/large/2x/prettier-2-logo-png-transparent.png"
-                alt="Logo Prettier"
-              />
-              <span>Prettier</span>
-            </div>
-            <div class="icon-portfolio font-weight-bold">
-              <img
-                src="https://icons-for-free.com/iconfiles/png/512/award+badge+html+html5+reward+trophy+icon-1320184828635374270.png"
-                alt="Logo HTML5"
-              />
-              <span>HTML5</span>
-            </div>
-            <!-- <div class="icon-portfolio font-weight-bold">
+        <!-- NEW CARD -->
+        <div class="card">
+          <img src="./images/javascript.jpg" class="card-img-top" />
+          <div class="card-body">
+            <h5 class="card-title text-center">Face Recognition App</h5>
+            <p class="card-text text-center">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <div class="d-flex justify-content-around flex-wrap">
+              <div class="icon-portfolio font-weight-bold">
                 <img
-                  src="https://icons-for-free.com/iconfiles/png/512/award+badge+css+css3+reward+trophy+icon-1320184828426835743.png"
-                  alt="Logo CSS3"
+                  src="https://miro.medium.com/max/500/1*cPh7ujRIfcHAy4kW2ADGOw.png"
+                  alt="Logo React"
                 />
-                <span>CSS3</span>
+                <span>React</span>
               </div>
               <div class="icon-portfolio font-weight-bold">
                 <img
-                  src="https://miro.medium.com/max/2048/0*HHrmGxvASDOUhNc-.png"
-                  alt="Logo Bootstrap 4"
+                  src="https://raw.githubusercontent.com/voodootikigod/logo.js/master/js.png"
+                  alt="Logo Javascript"
                 />
-                <span>Bootstrap 4</span>
+                <span>Javascript</span>
               </div>
               <div class="icon-portfolio font-weight-bold">
                 <img
-                  src="https://miro.medium.com/max/2048/0*HHrmGxvASDOUhNc-.png"
-                  alt="Logo Font Awesome"
+                  src="https://raw.githubusercontent.com/voodootikigod/logo.js/master/js.png"
+                  alt="Logo Node.js"
                 />
-                <span>Font Awesome</span>
+                <span>Node.js</span>
+              </div>
+            </div>
+          </div>
+          <div class="card-footer">
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <a
+                  href="./portfolio/project-1.html"
+                  class="btn btn-sm btn-outline-success"
+                  >More
+                </a>
+                <a
+                  href="https://github.com/BenjaminJaume/facerecognitionapp"
+                  alt="Github page"
+                  target="_blank"
+                  class="btn btn-sm btn-outline-success"
+                >
+                  <i class="fab fa-github"></i>
+                </a>
+                <a
+                  href="https://serene-coast-32584.herokuapp.com/"
+                  alt="Open website in a new tab"
+                  target="_blank"
+                  class="btn btn-sm btn-outline-success"
+                >
+                  <i class="fas fa-external-link-alt"></i>
+                </a>
+              </div>
+  
+              <small class="text-muted"
+                ><i class="far fa-clock mr-1"></i>2019</small
+              >
+            </div>
+          </div>
+          <!-- END CARD -->
+        </div>
+  
+        <!-- NEW CARD -->
+        <div class="card">
+          <img src="./images/taxi.jpg" class="card-img-top" />
+          <div class="card-body">
+            <h5 class="card-title text-center">Taxi</h5>
+            <p class="card-text text-center">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <div class="d-flex justify-content-around flex-wrap">
+              <div class="icon-portfolio font-weight-bold">
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Visual_Studio_2017_Logo.svg/1024px-Visual_Studio_2017_Logo.svg.png"
+                  alt="Logo Visual Studio"
+                />
+                <span>Visual Studio</span>
+              </div>
+              <div class="icon-portfolio font-weight-bold">
+                <img src="./images/languages/c++.png" alt="Logo C++" />
+                <span>C++</span>
+              </div>
+            </div>
+          </div>
+          <div class="card-footer">
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <a
+                  href="./portfolio/project-1.html"
+                  class="btn btn-sm btn-outline-success"
+                  >More
+                </a>
+                <a
+                  href="https://github.com/BenjaminJaume/ParcelDeliveries"
+                  alt="Github page"
+                  target="_blank"
+                  class="btn btn-sm btn-outline-success"
+                >
+                  <i class="fab fa-github"></i>
+                </a>
+                <a
+                  href="#"
+                  alt="Open website in a new tab"
+                  target="_blank"
+                  class="btn btn-sm btn-outline-success disabled"
+                >
+                  <i class="fas fa-external-link-alt"></i>
+                </a>
+              </div>
+  
+              <small class="text-muted"
+                ><i class="far fa-clock mr-1"></i>2019</small
+              >
+            </div>
+          </div>
+          <!-- END CARD -->
+        </div>
+  
+        <!-- NEW CARD -->
+        <div class="card">
+          <svg
+            class="bd-placeholder-img card-img-top"
+            width="100%"
+            height="225"
+            xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="xMidYMid slice"
+            focusable="false"
+            role="img"
+            aria-label="Placeholder: Thumbnail"
+          >
+            <rect width="100%" height="100%" fill="#55595c"></rect>
+          </svg>
+          <div class="card-body">
+            <h5 class="card-title text-center">Self Driving Car</h5>
+            <p class="card-text text-center">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <div class="d-flex justify-content-around flex-wrap">
+              <div class="icon-portfolio font-weight-bold ">
+                <img
+                  src="https://ap-sync.github.io/media/images/arduino_logo.png"
+                  alt="Logo Arduino"
+                  class="br-50"
+                />
+                <span>Arduino</span>
+              </div>
+              <div class="icon-portfolio font-weight-bold">
+                <img src="./images/languages/c++.png" alt="Logo C++" />
+                <span>C++</span>
+              </div>
+            </div>
+          </div>
+          <div class="card-footer">
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <a
+                  href="./portfolio/project-1.html"
+                  class="btn btn-sm btn-outline-success"
+                  >More
+                </a>
+                <a
+                  href="#"
+                  alt="Github page"
+                  target="_blank"
+                  class="btn btn-sm btn-outline-success disabled"
+                >
+                  <i class="fab fa-github"></i>
+                </a>
+                <a
+                  href="#"
+                  alt="Open website in a new tab"
+                  target="_blank"
+                  class="btn btn-sm btn-outline-success disabled"
+                >
+                  <i class="fas fa-external-link-alt"></i>
+                </a>
+              </div>
+  
+              <small class="text-muted"
+                ><i class="far fa-clock mr-1"></i>2019</small
+              >
+            </div>
+          </div>
+          <!-- END CARD -->
+        </div>
+  
+        <!-- NEW CARD -->
+        <div class="card">
+          <svg
+            class="bd-placeholder-img card-img-top"
+            width="100%"
+            height="225"
+            xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="xMidYMid slice"
+            focusable="false"
+            role="img"
+            aria-label="Placeholder: Thumbnail"
+          >
+            <rect width="100%" height="100%" fill="#55595c"></rect>
+          </svg>
+          <div class="card-body">
+            <h5 class="card-title text-center">
+              Optic Fiber Infrastructure Design
+            </h5>
+            <p class="card-text text-center">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <div class="d-flex justify-content-around flex-wrap">
+              <div class="icon-portfolio font-weight-bold">
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Visual_Studio_2017_Logo.svg/1024px-Visual_Studio_2017_Logo.svg.png"
+                  alt="Logo Autocad"
+                />
+                <span>Autocad</span>
               </div>
               <div class="icon-portfolio font-weight-bold">
                 <img
-                  src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png"
-                  alt="Logo Git"
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Visual_Studio_2017_Logo.svg/1024px-Visual_Studio_2017_Logo.svg.png"
+                  alt="Logo QGIS"
                 />
-                <span>Git</span>
+                <span>QGIS</span>
+              </div>
+            </div>
+          </div>
+          <div class="card-footer">
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <a
+                  href="./portfolio/project-1.html"
+                  class="btn btn-sm btn-outline-success"
+                  >More
+                </a>
+                <a
+                  href="#"
+                  alt="Github page"
+                  target="_blank"
+                  class="btn btn-sm btn-outline-success disabled"
+                >
+                  <i class="fab fa-github"></i>
+                </a>
+                <a
+                  href="#"
+                  alt="Open website in a new tab"
+                  target="_blank"
+                  class="btn btn-sm btn-outline-success disabled"
+                >
+                  <i class="fas fa-external-link-alt"></i>
+                </a>
+              </div>
+  
+              <small class="text-muted"
+                ><i class="far fa-clock mr-1"></i>2019</small
+              >
+            </div>
+          </div>
+          <!-- END CARD -->
+        </div>
+  
+        <!-- NEW CARD -->
+        <div class="card">
+          <svg
+            class="bd-placeholder-img card-img-top"
+            width="100%"
+            height="225"
+            xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="xMidYMid slice"
+            focusable="false"
+            role="img"
+            aria-label="Placeholder: Thumbnail"
+          >
+            <rect width="100%" height="100%" fill="#55595c"></rect>
+          </svg>
+          <div class="card-body">
+            <h5 class="card-title text-center">Bluetooth Robotic Arm</h5>
+            <p class="card-text text-center">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <div class="d-flex justify-content-around flex-wrap">
+              <div class="icon-portfolio font-weight-bold">
+                <img
+                  src="https://www.eclipse.org/ecd/img/eclipse256.png"
+                  alt="Logo Eclipse"
+                />
+                <span>Eclipse</span>
               </div>
               <div class="icon-portfolio font-weight-bold">
                 <img
-                  src="./images/languages/github.png"
-                  alt="Logo Github"
+                  src="https://image.flaticon.com/icons/png/512/174/174836.png"
+                  alt="Logo Android"
                 />
-                <span>Github</span>
+                <span>Android</span>
               </div>
-              
+  
               <div class="icon-portfolio font-weight-bold">
+                <img
+                  src="https://icon-library.net/images/java-icon-png/java-icon-png-2.jpg"
+                  alt="Logo Java"
+                />
+                <span>Java</span>
+              </div>
+            </div>
+          </div>
+          <div class="card-footer">
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <a
+                  href="./portfolio/project-1.html"
+                  class="btn btn-sm btn-outline-success"
+                  >More
+                </a>
+                <a
+                  href="https://github.com/BenjaminJaume/ControleBrasRobot"
+                  alt="Github page"
+                  target="_blank"
+                  class="btn btn-sm btn-outline-success"
+                >
+                  <i class="fab fa-github"></i>
+                </a>
+                <a
+                  href="#"
+                  alt="Open website in a new tab"
+                  target="_blank"
+                  class="btn btn-sm btn-outline-success disabled"
+                >
+                  <i class="fas fa-external-link-alt"></i>
+                </a>
+              </div>
+  
+              <small class="text-muted"
+                ><i class="far fa-clock mr-1"></i>2019</small
+              >
+            </div>
+          </div>
+          <!-- END CARD -->
+        </div>
+  
+        <!-- NEW CARD -->
+        <div class="card">
+          <svg
+            class="bd-placeholder-img card-img-top"
+            width="100%"
+            height="225"
+            xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="xMidYMid slice"
+            focusable="false"
+            role="img"
+            aria-label="Placeholder: Thumbnail"
+          >
+            <rect width="100%" height="100%" fill="#55595c"></rect>
+          </svg>
+          <div class="card-body">
+            <h5 class="card-title text-center">C programs</h5>
+            <p class="card-text text-center">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <div class="d-flex justify-content-around flex-wrap">
+              <div class="icon-portfolio font-weight-bold">
+                <img
+                  src="https://www.eclipse.org/ecd/img/eclipse256.png"
+                  alt="Logo Eclipse"
+                />
+                <span>Eclipse</span>
+              </div>
+              <div class="icon-portfolio font-weight-bold">
+                <img
+                  src="https://cdn.iconscout.com/icon/free/png-512/c-programming-569564.png"
+                  alt="Logo C"
+                />
+                <span>C</span>
+              </div>
+            </div>
+          </div>
+          <div class="card-footer">
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <a
+                  href="./portfolio/project-1.html"
+                  class="btn btn-sm btn-outline-success"
+                  >More
+                </a>
+                <a
+                  href="https://github.com/BenjaminJaume/C-programs"
+                  alt="Github page"
+                  target="_blank"
+                  class="btn btn-sm btn-outline-success"
+                >
+                  <i class="fab fa-github"></i>
+                </a>
+                <a
+                  href="#"
+                  alt="Open website in a new tab"
+                  target="_blank"
+                  class="btn btn-sm btn-outline-success disabled"
+                >
+                  <i class="fas fa-external-link-alt"></i>
+                </a>
+              </div>
+  
+              <small class="text-muted"
+                ><i class="far fa-clock mr-1"></i>2019</small
+              >
+            </div>
+          </div>
+          <!-- END CARD -->
+        </div>
+  
+        <!-- NEW CARD -->
+        <div class="card">
+          <svg
+            class="bd-placeholder-img card-img-top"
+            width="100%"
+            height="225"
+            xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="xMidYMid slice"
+            focusable="false"
+            role="img"
+            aria-label="Placeholder: Thumbnail"
+          >
+            <rect width="100%" height="100%" fill="#55595c"></rect>
+          </svg>
+          <div class="card-body">
+            <h5 class="card-title text-center">Bash on Linux</h5>
+            <p class="card-text text-center">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <div class="d-flex justify-content-around flex-wrap">
+              <div class="icon-portfolio font-weight-bold">
+                <img
+                  src="https://miro.medium.com/max/1024/0*xoF4pubIjvqOzk3U.png"
+                  alt="Logo Bash"
+                />
+                <span>Bash</span>
+              </div>
+              <div class="icon-portfolio font-weight-bold">
+                <img
+                  src="https://cdn3.iconfinder.com/data/icons/logos-brands-3/24/logo_brand_brands_logos_linux-512.png"
+                  alt="Logo Linux"
+                />
+                <span>Linux</span>
+              </div>
+            </div>
+          </div>
+          <div class="card-footer">
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <a
+                  href="./portfolio/project-1.html"
+                  class="btn btn-sm btn-outline-success"
+                  >More
+                </a>
+                <a
+                  href="#"
+                  alt="Github page"
+                  target="_blank"
+                  class="btn btn-sm btn-outline-success disabled"
+                >
+                  <i class="fab fa-github"></i>
+                </a>
+                <a
+                  href="#"
+                  alt="Open website in a new tab"
+                  target="_blank"
+                  class="btn btn-sm btn-outline-success disabled"
+                >
+                  <i class="fas fa-external-link-alt"></i>
+                </a>
+              </div>
+  
+              <small class="text-muted"
+                ><i class="far fa-clock mr-1"></i>2019</small
+              >
+            </div>
+          </div>
+          <!-- END CARD -->
+        </div>
+  
+        <!-- NEW CARD -->
+        <div class="card">
+          <svg
+            class="bd-placeholder-img card-img-top"
+            width="100%"
+            height="225"
+            xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="xMidYMid slice"
+            focusable="false"
+            role="img"
+            aria-label="Placeholder: Thumbnail"
+          >
+            <rect width="100%" height="100%" fill="#55595c"></rect>
+          </svg>
+          <div class="card-body">
+            <h5 class="card-title text-center">File Manager</h5>
+            <p class="card-text text-center">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <div class="d-flex justify-content-around flex-wrap">
+              <div class="icon-portfolio font-weight-bold">
+                <img
+                  src="https://2.bp.blogspot.com/-BIgMHuNq76g/WGQq1AMHWKI/AAAAAAAAEqA/iO9qME54wCYdYjOhEZveLeFMC9aCunCxgCLcB/s1600/batch-files.png"
+                  alt="Logo Batch"
+                />
+                <span>Batch</span>
+              </div>
+  
+              <div class="icon-portfolio font-weight-bold">
+                <img
+                  src="https://bltt.org/wp-content/uploads/2009/07/win7.png"
+                  alt="Logo Windows 7"
+                />
+                <span>Window 7</span>
+              </div>
+            </div>
+          </div>
+          <div class="card-footer">
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <a
+                  href="./portfolio/project-1.html"
+                  class="btn btn-sm btn-outline-success"
+                  >More
+                </a>
+                <a
+                  href="#"
+                  alt="Github page"
+                  target="_blank"
+                  class="btn btn-sm btn-outline-success disabled"
+                >
+                  <i class="fab fa-github"></i>
+                </a>
+                <a
+                  href="#"
+                  alt="Open website in a new tab"
+                  target="_blank"
+                  class="btn btn-sm btn-outline-success disabled"
+                >
+                  <i class="fas fa-external-link-alt"></i>
+                </a>
+              </div>
+  
+              <small class="text-muted"
+                ><i class="far fa-clock mr-1"></i>2019</small
+              >
+            </div>
+          </div>
+          <!-- END CARD -->
+        </div>
+  
+        <!-- NEW CARD -->
+        <div class="card mb-4">
+          <svg
+            class="bd-placeholder-img card-img-top"
+            width="100%"
+            height="225"
+            xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="xMidYMid slice"
+            focusable="false"
+            role="img"
+            aria-label="Placeholder: Thumbnail"
+          >
+            <rect width="100%" height="100%" fill="#55595c"></rect>
+          </svg>
+          <div class="card-body">
+            <h5 class="card-title text-center">GUI in Python</h5>
+            <p class="card-text text-center">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <div class="d-flex justify-content-around flex-wrap">
+              <div class="icon-portfolio font-weight-bold">
+                <img
+                  src="http://www.clker.com/cliparts/b/0/0/b/11949995711012521407gtk.svg"
+                  alt="Logo GTK+"
+                />
+                <span>GTK+</span>
+              </div>
+              <div class="icon-portfolio font-weight-bold">
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1024px-Python-logo-notext.svg.png"
+                  alt="Logo Python"
+                />
+                <span>Python</span>
+              </div>
+              <div class="icon-portfolio font-weight-bold">
+                <img
+                  src="https://avatars0.githubusercontent.com/u/1294177?s=400&v=4"
+                  alt="Logo Raspberry"
+                />
+                <span>Raspberry</span>
+              </div>
+              <!-- <div class="icon-portfolio font-weight-bold">
+                        <img
+                          src="https://cdn0.iconfinder.com/data/icons/flat-round-system/512/debian-512.png"
+                          alt="Logo Raspbian"
+                        />
+                        <span>Raspbian</span>
+                      </div>
+                      <div class="icon-portfolio font-weight-bold">
+                        <img
+                          src="http://icons.iconarchive.com/icons/papirus-team/papirus-apps/512/glade-icon.png"
+                          alt="Logo Glade"
+                        />
+                        <span>Glade</span>
+                      </div> -->
+              <div class="icon-portfolio font-weight-bold">
+                <img
+                  src="https://cdn0.iconfinder.com/data/icons/flat-round-system/512/debian-512.png"
+                  alt="Logo More"
+                />
+                <span>More</span>
+              </div>
+            </div>
+          </div>
+          <div class="card-footer">
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <a
+                  href="./portfolio/project-1.html"
+                  class="btn btn-sm btn-outline-success"
+                  >More
+                </a>
+                <a
+                  href="#"
+                  alt="Github page"
+                  target="_blank"
+                  class="btn btn-sm btn-outline-success disabled"
+                >
+                  <i class="fab fa-github"></i>
+                </a>
+                <a
+                  href="#"
+                  alt="Open website in a new tab"
+                  target="_blank"
+                  class="btn btn-sm btn-outline-success disabled"
+                >
+                  <i class="fas fa-external-link-alt"></i>
+                </a>
+              </div>
+  
+              <small class="text-muted"
+                ><i class="far fa-clock mr-1"></i>2019</small
+              >
+            </div>
+          </div>
+          <!-- END CARD -->
+        </div>
+  
+        <!-- NEW CARD -->
+        <div class="card mb-4">
+          <svg
+            class="bd-placeholder-img card-img-top"
+            width="100%"
+            height="225"
+            xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="xMidYMid slice"
+            focusable="false"
+            role="img"
+            aria-label="Placeholder: Thumbnail"
+          >
+            <rect width="100%" height="100%" fill="#55595c"></rect>
+          </svg>
+          <div class="card-body">
+            <h5 class="card-title text-center">Benjamin Jaume</h5>
+            <p class="card-text text-center">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <div class="d-flex justify-content-around flex-wrap">
+              <div class="icon-portfolio font-weight-bold">
+                <img
+                  src="https://cdn.freebiesupply.com/logos/large/2x/visual-studio-code-logo-png-transparent.png"
+                  alt="Logo VS Code"
+                />
+                <span>VS Code</span>
+              </div>
+              <div class="icon-portfolio font-weight-bold">
+                <img
+                  src="https://cdn.freebiesupply.com/logos/large/2x/prettier-2-logo-png-transparent.png"
+                  alt="Logo Prettier"
+                />
+                <span>Prettier</span>
+              </div>
+              <div class="icon-portfolio font-weight-bold">
+                <img
+                  src="https://icons-for-free.com/iconfiles/png/512/award+badge+html+html5+reward+trophy+icon-1320184828635374270.png"
+                  alt="Logo HTML5"
+                />
+                <span>HTML5</span>
+              </div>
+              <!-- <div class="icon-portfolio font-weight-bold">
                   <img
-                    src="https://images.squarespace-cdn.com/content/v1/5c3f8137697a980b73011c7c/1548779880497-0C6VPFNG3LFCQMO9TBK0/ke17ZwdGBToddI8pDm48kDFElt-7CRuUeLk516R3ybdZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpzG8R05NGkJZg8SJAVYLQuzdW18uoVUudZDM_fMuX1FrZAhkPGiGdqUfGUScG_TzaQ/Microsoft+Logo+4X4+Colored.png"
-                    alt="Logo NPM"
+                    src="https://icons-for-free.com/iconfiles/png/512/award+badge+css+css3+reward+trophy+icon-1320184828426835743.png"
+                    alt="Logo CSS3"
                   />
-                  <span>NPM</span>
+                  <span>CSS3</span>
                 </div>
-              <div class="icon-portfolio font-weight-bold">
+                <div class="icon-portfolio font-weight-bold">
                   <img
-                    src="https://images.squarespace-cdn.com/content/v1/5c3f8137697a980b73011c7c/1548779880497-0C6VPFNG3LFCQMO9TBK0/ke17ZwdGBToddI8pDm48kDFElt-7CRuUeLk516R3ybdZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpzG8R05NGkJZg8SJAVYLQuzdW18uoVUudZDM_fMuX1FrZAhkPGiGdqUfGUScG_TzaQ/Microsoft+Logo+4X4+Colored.png"
-                    alt="Logo Windows 10"
+                    src="https://miro.medium.com/max/2048/0*HHrmGxvASDOUhNc-.png"
+                    alt="Logo Bootstrap 4"
                   />
-                  <span>Window 10</span>
-                </div> -->
-            <div class="icon-portfolio font-weight-bold">
-              <img
-                src="https://images.squarespace-cdn.com/content/v1/5c3f8137697a980b73011c7c/1548779880497-0C6VPFNG3LFCQMO9TBK0/ke17ZwdGBToddI8pDm48kDFElt-7CRuUeLk516R3ybdZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpzG8R05NGkJZg8SJAVYLQuzdW18uoVUudZDM_fMuX1FrZAhkPGiGdqUfGUScG_TzaQ/Microsoft+Logo+4X4+Colored.png"
-                alt="Logo More"
-              />
-              <span>More</span>
+                  <span>Bootstrap 4</span>
+                </div>
+                <div class="icon-portfolio font-weight-bold">
+                  <img
+                    src="https://miro.medium.com/max/2048/0*HHrmGxvASDOUhNc-.png"
+                    alt="Logo Font Awesome"
+                  />
+                  <span>Font Awesome</span>
+                </div>
+                <div class="icon-portfolio font-weight-bold">
+                  <img
+                    src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png"
+                    alt="Logo Git"
+                  />
+                  <span>Git</span>
+                </div>
+                <div class="icon-portfolio font-weight-bold">
+                  <img
+                    src="./images/languages/github.png"
+                    alt="Logo Github"
+                  />
+                  <span>Github</span>
+                </div>
+                
+                <div class="icon-portfolio font-weight-bold">
+                    <img
+                      src="https://images.squarespace-cdn.com/content/v1/5c3f8137697a980b73011c7c/1548779880497-0C6VPFNG3LFCQMO9TBK0/ke17ZwdGBToddI8pDm48kDFElt-7CRuUeLk516R3ybdZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpzG8R05NGkJZg8SJAVYLQuzdW18uoVUudZDM_fMuX1FrZAhkPGiGdqUfGUScG_TzaQ/Microsoft+Logo+4X4+Colored.png"
+                      alt="Logo NPM"
+                    />
+                    <span>NPM</span>
+                  </div>
+                <div class="icon-portfolio font-weight-bold">
+                    <img
+                      src="https://images.squarespace-cdn.com/content/v1/5c3f8137697a980b73011c7c/1548779880497-0C6VPFNG3LFCQMO9TBK0/ke17ZwdGBToddI8pDm48kDFElt-7CRuUeLk516R3ybdZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpzG8R05NGkJZg8SJAVYLQuzdW18uoVUudZDM_fMuX1FrZAhkPGiGdqUfGUScG_TzaQ/Microsoft+Logo+4X4+Colored.png"
+                      alt="Logo Windows 10"
+                    />
+                    <span>Window 10</span>
+                  </div> -->
+              <div class="icon-portfolio font-weight-bold">
+                <img
+                  src="https://images.squarespace-cdn.com/content/v1/5c3f8137697a980b73011c7c/1548779880497-0C6VPFNG3LFCQMO9TBK0/ke17ZwdGBToddI8pDm48kDFElt-7CRuUeLk516R3ybdZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpzG8R05NGkJZg8SJAVYLQuzdW18uoVUudZDM_fMuX1FrZAhkPGiGdqUfGUScG_TzaQ/Microsoft+Logo+4X4+Colored.png"
+                  alt="Logo More"
+                />
+                <span>More</span>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="card-footer">
-          <div class="d-flex justify-content-between align-items-center">
-            <div class="btn-group">
-              <a
-                href="./portfolio/project-1.html"
-                class="btn btn-sm btn-outline-success"
-                >More
-              </a>
-              <a
-                href="https://github.com/BenjaminJaume/benjaminjaume"
-                alt="Github page"
-                target="_blank"
-                class="btn btn-sm btn-outline-success"
+          <div class="card-footer">
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <a
+                  href="./portfolio/project-1.html"
+                  class="btn btn-sm btn-outline-success"
+                  >More
+                </a>
+                <a
+                  href="https://github.com/BenjaminJaume/benjaminjaume"
+                  alt="Github page"
+                  target="_blank"
+                  class="btn btn-sm btn-outline-success"
+                >
+                  <i class="fab fa-github"></i>
+                </a>
+                <a
+                  href="https://benjaminjaume.github.io/benjaminjaume/index.html"
+                  alt="Open website in a new tab"
+                  target="_blank"
+                  class="btn btn-sm btn-outline-success"
+                >
+                  <i class="fas fa-external-link-alt"></i>
+                </a>
+              </div>
+  
+              <small class="text-muted"
+                ><i class="far fa-clock mr-1"></i>2019</small
               >
-                <i class="fab fa-github"></i>
-              </a>
-              <a
-                href="https://benjaminjaume.github.io/benjaminjaume/index.html"
-                alt="Open website in a new tab"
-                target="_blank"
-                class="btn btn-sm btn-outline-success"
-              >
-                <i class="fas fa-external-link-alt"></i>
-              </a>
             </div>
-
-            <small class="text-muted"
-              ><i class="far fa-clock mr-1"></i>2019</small
-            >
           </div>
+          <!-- END CARD -->
         </div>
-        <!-- END CARD -->
+  
+        <!-- NEW CARD -->
+        <div class="card mb-4">
+          <svg
+            class="bd-placeholder-img card-img-top"
+            width="100%"
+            height="225"
+            xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="xMidYMid slice"
+            focusable="false"
+            role="img"
+            aria-label="Placeholder: Thumbnail"
+          >
+            <rect width="100%" height="100%" fill="#55595c"></rect>
+          </svg>
+          <div class="card-body">
+            <h5 class="card-title text-center">Media Center</h5>
+            <p class="card-text text-center">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <div class="d-flex justify-content-around flex-wrap">
+              <div class="icon-portfolio font-weight-bold">
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Visual_Studio_2017_Logo.svg/1024px-Visual_Studio_2017_Logo.svg.png"
+                  alt="Logo PHP"
+                />
+                <span>PHP</span>
+              </div>
+              <div class="icon-portfolio font-weight-bold">
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Visual_Studio_2017_Logo.svg/1024px-Visual_Studio_2017_Logo.svg.png"
+                  alt="Logo Notepad++"
+                />
+                <span>Notepad++</span>
+              </div>
+              <div class="icon-portfolio font-weight-bold">
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Visual_Studio_2017_Logo.svg/1024px-Visual_Studio_2017_Logo.svg.png"
+                  alt="Logo MySQL"
+                />
+                <span>MySQL</span>
+              </div>
+              <div class="icon-portfolio font-weight-bold">
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Visual_Studio_2017_Logo.svg/1024px-Visual_Studio_2017_Logo.svg.png"
+                  alt="Logo Wamp Server"
+                />
+                <span>Wamp Server</span>
+              </div>
+            </div>
+          </div>
+          <div class="card-footer">
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <a
+                  href="./portfolio/project-1.html"
+                  class="btn btn-sm btn-outline-success"
+                  >More
+                </a>
+                <a
+                  href="https://github.com/BenjaminJaume/Media-center"
+                  alt="Github page"
+                  target="_blank"
+                  class="btn btn-sm btn-outline-success"
+                >
+                  <i class="fab fa-github"></i>
+                </a>
+                <a
+                  href="#"
+                  alt="Open website in a new tab"
+                  target="_blank"
+                  class="btn btn-sm btn-outline-success disabled"
+                >
+                  <i class="fas fa-external-link-alt"></i>
+                </a>
+              </div>
+  
+              <small class="text-muted"
+                ><i class="far fa-clock mr-1"></i>2019</small
+              >
+            </div>
+          </div>
+          <!-- END CARD -->
+        </div>
+  
+        <!-- NEW CARD -->
+        <div class="card mb-4">
+          <svg
+            class="bd-placeholder-img card-img-top"
+            width="100%"
+            height="225"
+            xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="xMidYMid slice"
+            focusable="false"
+            role="img"
+            aria-label="Placeholder: Thumbnail"
+          >
+            <rect width="100%" height="100%" fill="#55595c"></rect>
+          </svg>
+          <div class="card-body">
+            <h5 class="card-title text-center">
+              Managing Ticeting Machine
+            </h5>
+            <p class="card-text text-center">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <div class="d-flex justify-content-around flex-wrap">
+              <div class="icon-portfolio font-weight-bold">
+                <img
+                  src="https://cdn3.iconfinder.com/data/icons/microsoft-office-2014/625/microsoft_office-512.png"
+                  alt="Logo MS Office"
+                />
+                <span>MS Office</span>
+              </div>
+              <div class="icon-portfolio font-weight-bold">
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Microsoft_Excel_2013_logo.svg/1043px-Microsoft_Excel_2013_logo.svg.png"
+                  alt="Logo VBA"
+                />
+                <span>VBA</span>
+              </div>
+            </div>
+          </div>
+          <div class="card-footer">
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <a
+                  href="./portfolio/project-1.html"
+                  class="btn btn-sm btn-outline-success"
+                  >More
+                </a>
+                <a
+                  href="#"
+                  alt="Github page"
+                  target="_blank"
+                  class="btn btn-sm btn-outline-success disabled"
+                >
+                  <i class="fab fa-github"></i>
+                </a>
+                <a
+                  href="#"
+                  alt="Open website in a new tab"
+                  target="_blank"
+                  class="btn btn-sm btn-outline-success disabled"
+                >
+                  <i class="fas fa-external-link-alt"></i>
+                </a>
+              </div>
+  
+              <small class="text-muted"
+                ><i class="far fa-clock mr-1"></i>2019</small
+              >
+            </div>
+          </div>
+          <!-- END CARD -->
+        </div>
+  
+        <!-- NEW CARD -->
+        <div class="card mb-4">
+          <svg
+            class="bd-placeholder-img card-img-top"
+            width="100%"
+            height="225"
+            xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="xMidYMid slice"
+            focusable="false"
+            role="img"
+            aria-label="Placeholder: Thumbnail"
+          >
+            <rect width="100%" height="100%" fill="#55595c"></rect>
+          </svg>
+          <div class="card-body">
+            <h5 class="card-title text-center">OpenModbus</h5>
+            <p class="card-text text-center">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <div class="d-flex justify-content-around flex-wrap">
+              <div class="icon-portfolio font-weight-bold">
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Visual_Studio_2017_Logo.svg/1024px-Visual_Studio_2017_Logo.svg.png"
+                  alt="Logo Visual Studio"
+                />
+                <span>Visual Studio</span>
+              </div>
+              <div class="icon-portfolio font-weight-bold">
+                <img
+                  src="https://hackr.io/tutorials/learn-visual-basic-net-vb/logo/logo-visual-basic-net-vb?ver=1551354757"
+                  alt="Logo VB"
+                />
+                <span>VB</span>
+              </div>
+            </div>
+          </div>
+          <div class="card-footer">
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <a
+                  href="./portfolio/project-1.html"
+                  class="btn btn-sm btn-outline-success"
+                  >More
+                </a>
+                <a
+                  href="https://github.com/BenjaminJaume/OpenModbus_CBJ"
+                  alt="Github page"
+                  target="_blank"
+                  class="btn btn-sm btn-outline-success"
+                >
+                  <i class="fab fa-github"></i>
+                </a>
+                <a
+                  href="#"
+                  alt="Open website in a new tab"
+                  target="_blank"
+                  class="btn btn-sm btn-outline-success disabled"
+                >
+                  <i class="fas fa-external-link-alt"></i>
+                </a>
+              </div>
+  
+              <small class="text-muted"
+                ><i class="far fa-clock mr-1"></i>2019</small
+              >
+            </div>
+          </div>
+          <!-- END CARD -->
+        </div>
+  
+        <!-- NEW CARD -->
+        <div class="card mb-4">
+          <svg
+            class="bd-placeholder-img card-img-top"
+            width="100%"
+            height="225"
+            xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="xMidYMid slice"
+            focusable="false"
+            role="img"
+            aria-label="Placeholder: Thumbnail"
+          >
+            <rect width="100%" height="100%" fill="#55595c"></rect>
+          </svg>
+          <div class="card-body">
+            <h5 class="card-title text-center">Recycle Station Finder</h5>
+            <p class="card-text text-center text-center">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <div class="d-flex justify-content-around flex-wrap">
+              <div class="icon-portfolio font-weight-bold ">
+                <img
+                  src="https://ap-sync.github.io/media/images/arduino_logo.png"
+                  alt="Logo IntelXDK"
+                  class="br-50"
+                />
+                <span>IntelXDK</span>
+              </div>
+            </div>
+          </div>
+          <div class="card-footer">
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <a
+                  href="./portfolio/project-1.html"
+                  class="btn btn-sm btn-outline-success"
+                  >More
+                </a>
+                <a
+                  href="https://github.com/BenjaminJaume/RecycleStationFinder"
+                  alt="Github page"
+                  target="_blank"
+                  class="btn btn-sm btn-outline-success"
+                >
+                  <i class="fab fa-github"></i>
+                </a>
+                <a
+                  href="#"
+                  alt="Open website in a new tab"
+                  target="_blank"
+                  class="btn btn-sm btn-outline-success disabled"
+                >
+                  <i class="fas fa-external-link-alt"></i>
+                </a>
+              </div>
+  
+              <small class="text-muted"
+                ><i class="far fa-clock mr-1"></i>2019</small
+              >
+            </div>
+          </div>
+          <!-- END CARD -->
+        </div>
+  
+        <!-- NEW CARD -->
+        <div class="card mb-4">
+          <svg
+            class="bd-placeholder-img card-img-top"
+            width="100%"
+            height="225"
+            xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="xMidYMid slice"
+            focusable="false"
+            role="img"
+            aria-label="Placeholder: Thumbnail"
+          >
+            <rect width="100%" height="100%" fill="#55595c"></rect>
+          </svg>
+          <div class="card-body">
+            <h5 class="card-title text-center">Daft Punk Table</h5>
+            <p class="card-text text-center text-center">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <div class="d-flex justify-content-around flex-wrap">
+              <div class="icon-portfolio font-weight-bold ">
+                <img
+                  src="https://ap-sync.github.io/media/images/arduino_logo.png"
+                  alt="Logo Arduino"
+                  class="br-50"
+                />
+                <span>Arduino</span>
+              </div>
+              <div class="icon-portfolio font-weight-bold">
+                <img src="./images/languages/c++.png" alt="Logo C++" />
+                <span>C++</span>
+              </div>
+            </div>
+          </div>
+          <div class="card-footer">
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <a
+                  href="./portfolio/project-1.html"
+                  class="btn btn-sm btn-outline-success"
+                  >More
+                </a>
+                <a
+                  href="#"
+                  alt="Github page"
+                  target="_blank"
+                  class="btn btn-sm btn-outline-success disabled"
+                >
+                  <i class="fab fa-github"></i>
+                </a>
+                <a
+                  href="#"
+                  alt="Open website in a new tab"
+                  target="_blank"
+                  class="btn btn-sm btn-outline-success disabled"
+                >
+                  <i class="fas fa-external-link-alt"></i>
+                </a>
+              </div>
+  
+              <small class="text-muted"
+                ><i class="far fa-clock mr-1"></i>2019</small
+              >
+            </div>
+          </div>
+          <!-- END CARD -->
+        </div>
+  
+        <!-- NEW CARD -->
+        <div class="card mb-4">
+          <img src="./images/arduino.jpg" class="card-img-top" />
+          <div class="card-body">
+            <h5 class="card-title text-center">Arduino</h5>
+            <p class="card-text text-center text-center">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <div class="d-flex justify-content-around flex-wrap">
+              <div class="icon-portfolio font-weight-bold ">
+                <img
+                  src="https://ap-sync.github.io/media/images/arduino_logo.png"
+                  alt="Logo Arduino"
+                  class="br-50"
+                />
+                <span>Arduino</span>
+              </div>
+              <div class="icon-portfolio font-weight-bold">
+                <img src="./images/languages/c++.png" alt="Logo C++" />
+                <span>C++</span>
+              </div>
+            </div>
+          </div>
+          <div class="card-footer">
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <a
+                  href="./portfolio/project-1.html"
+                  class="btn btn-sm btn-outline-success"
+                  >More
+                </a>
+                <a
+                  href="#"
+                  alt="Github page"
+                  target="_blank"
+                  class="btn btn-sm btn-outline-success disabled"
+                >
+                  <i class="fab fa-github"></i>
+                </a>
+                <a
+                  href="#"
+                  alt="Open website in a new tab"
+                  target="_blank"
+                  class="btn btn-sm btn-outline-success disabled"
+                >
+                  <i class="fas fa-external-link-alt"></i>
+                </a>
+              </div>
+  
+              <small class="text-muted"
+                ><i class="far fa-clock mr-1"></i>2019</small
+              >
+            </div>
+          </div>
+          <!-- END CARD -->
+        </div>
+        <!-- END CARD-DECK -->
       </div>
-
-      <!-- NEW CARD -->
-      <div class="card mb-4">
-        <svg
-          class="bd-placeholder-img card-img-top"
-          width="100%"
-          height="225"
-          xmlns="http://www.w3.org/2000/svg"
-          preserveAspectRatio="xMidYMid slice"
-          focusable="false"
-          role="img"
-          aria-label="Placeholder: Thumbnail"
-        >
-          <rect width="100%" height="100%" fill="#55595c"></rect>
-        </svg>
-        <div class="card-body">
-          <h5 class="card-title text-center">Media Center</h5>
-          <p class="card-text text-center">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
-          </p>
-          <div class="d-flex justify-content-around flex-wrap">
-            <div class="icon-portfolio font-weight-bold">
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Visual_Studio_2017_Logo.svg/1024px-Visual_Studio_2017_Logo.svg.png"
-                alt="Logo PHP"
-              />
-              <span>PHP</span>
-            </div>
-            <div class="icon-portfolio font-weight-bold">
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Visual_Studio_2017_Logo.svg/1024px-Visual_Studio_2017_Logo.svg.png"
-                alt="Logo Notepad++"
-              />
-              <span>Notepad++</span>
-            </div>
-            <div class="icon-portfolio font-weight-bold">
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Visual_Studio_2017_Logo.svg/1024px-Visual_Studio_2017_Logo.svg.png"
-                alt="Logo MySQL"
-              />
-              <span>MySQL</span>
-            </div>
-            <div class="icon-portfolio font-weight-bold">
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Visual_Studio_2017_Logo.svg/1024px-Visual_Studio_2017_Logo.svg.png"
-                alt="Logo Wamp Server"
-              />
-              <span>Wamp Server</span>
-            </div>
-          </div>
-        </div>
-        <div class="card-footer">
-          <div class="d-flex justify-content-between align-items-center">
-            <div class="btn-group">
-              <a
-                href="./portfolio/project-1.html"
-                class="btn btn-sm btn-outline-success"
-                >More
-              </a>
-              <a
-                href="https://github.com/BenjaminJaume/Media-center"
-                alt="Github page"
-                target="_blank"
-                class="btn btn-sm btn-outline-success"
-              >
-                <i class="fab fa-github"></i>
-              </a>
-              <a
-                href="#"
-                alt="Open website in a new tab"
-                target="_blank"
-                class="btn btn-sm btn-outline-success disabled"
-              >
-                <i class="fas fa-external-link-alt"></i>
-              </a>
-            </div>
-
-            <small class="text-muted"
-              ><i class="far fa-clock mr-1"></i>2019</small
-            >
-          </div>
-        </div>
-        <!-- END CARD -->
-      </div>
-
-      <!-- NEW CARD -->
-      <div class="card mb-4">
-        <svg
-          class="bd-placeholder-img card-img-top"
-          width="100%"
-          height="225"
-          xmlns="http://www.w3.org/2000/svg"
-          preserveAspectRatio="xMidYMid slice"
-          focusable="false"
-          role="img"
-          aria-label="Placeholder: Thumbnail"
-        >
-          <rect width="100%" height="100%" fill="#55595c"></rect>
-        </svg>
-        <div class="card-body">
-          <h5 class="card-title text-center">
-            Managing Ticeting Machine
-          </h5>
-          <p class="card-text text-center">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
-          </p>
-          <div class="d-flex justify-content-around flex-wrap">
-            <div class="icon-portfolio font-weight-bold">
-              <img
-                src="https://cdn3.iconfinder.com/data/icons/microsoft-office-2014/625/microsoft_office-512.png"
-                alt="Logo MS Office"
-              />
-              <span>MS Office</span>
-            </div>
-            <div class="icon-portfolio font-weight-bold">
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Microsoft_Excel_2013_logo.svg/1043px-Microsoft_Excel_2013_logo.svg.png"
-                alt="Logo VBA"
-              />
-              <span>VBA</span>
-            </div>
-          </div>
-        </div>
-        <div class="card-footer">
-          <div class="d-flex justify-content-between align-items-center">
-            <div class="btn-group">
-              <a
-                href="./portfolio/project-1.html"
-                class="btn btn-sm btn-outline-success"
-                >More
-              </a>
-              <a
-                href="#"
-                alt="Github page"
-                target="_blank"
-                class="btn btn-sm btn-outline-success disabled"
-              >
-                <i class="fab fa-github"></i>
-              </a>
-              <a
-                href="#"
-                alt="Open website in a new tab"
-                target="_blank"
-                class="btn btn-sm btn-outline-success disabled"
-              >
-                <i class="fas fa-external-link-alt"></i>
-              </a>
-            </div>
-
-            <small class="text-muted"
-              ><i class="far fa-clock mr-1"></i>2019</small
-            >
-          </div>
-        </div>
-        <!-- END CARD -->
-      </div>
-
-      <!-- NEW CARD -->
-      <div class="card mb-4">
-        <svg
-          class="bd-placeholder-img card-img-top"
-          width="100%"
-          height="225"
-          xmlns="http://www.w3.org/2000/svg"
-          preserveAspectRatio="xMidYMid slice"
-          focusable="false"
-          role="img"
-          aria-label="Placeholder: Thumbnail"
-        >
-          <rect width="100%" height="100%" fill="#55595c"></rect>
-        </svg>
-        <div class="card-body">
-          <h5 class="card-title text-center">OpenModbus</h5>
-          <p class="card-text text-center">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
-          </p>
-          <div class="d-flex justify-content-around flex-wrap">
-            <div class="icon-portfolio font-weight-bold">
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Visual_Studio_2017_Logo.svg/1024px-Visual_Studio_2017_Logo.svg.png"
-                alt="Logo Visual Studio"
-              />
-              <span>Visual Studio</span>
-            </div>
-            <div class="icon-portfolio font-weight-bold">
-              <img
-                src="https://hackr.io/tutorials/learn-visual-basic-net-vb/logo/logo-visual-basic-net-vb?ver=1551354757"
-                alt="Logo VB"
-              />
-              <span>VB</span>
-            </div>
-          </div>
-        </div>
-        <div class="card-footer">
-          <div class="d-flex justify-content-between align-items-center">
-            <div class="btn-group">
-              <a
-                href="./portfolio/project-1.html"
-                class="btn btn-sm btn-outline-success"
-                >More
-              </a>
-              <a
-                href="https://github.com/BenjaminJaume/OpenModbus_CBJ"
-                alt="Github page"
-                target="_blank"
-                class="btn btn-sm btn-outline-success"
-              >
-                <i class="fab fa-github"></i>
-              </a>
-              <a
-                href="#"
-                alt="Open website in a new tab"
-                target="_blank"
-                class="btn btn-sm btn-outline-success disabled"
-              >
-                <i class="fas fa-external-link-alt"></i>
-              </a>
-            </div>
-
-            <small class="text-muted"
-              ><i class="far fa-clock mr-1"></i>2019</small
-            >
-          </div>
-        </div>
-        <!-- END CARD -->
-      </div>
-
-      <!-- NEW CARD -->
-      <div class="card mb-4">
-        <svg
-          class="bd-placeholder-img card-img-top"
-          width="100%"
-          height="225"
-          xmlns="http://www.w3.org/2000/svg"
-          preserveAspectRatio="xMidYMid slice"
-          focusable="false"
-          role="img"
-          aria-label="Placeholder: Thumbnail"
-        >
-          <rect width="100%" height="100%" fill="#55595c"></rect>
-        </svg>
-        <div class="card-body">
-          <h5 class="card-title text-center">Recycle Station Finder</h5>
-          <p class="card-text text-center text-center">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
-          </p>
-          <div class="d-flex justify-content-around flex-wrap">
-            <div class="icon-portfolio font-weight-bold ">
-              <img
-                src="https://ap-sync.github.io/media/images/arduino_logo.png"
-                alt="Logo IntelXDK"
-                class="br-50"
-              />
-              <span>IntelXDK</span>
-            </div>
-          </div>
-        </div>
-        <div class="card-footer">
-          <div class="d-flex justify-content-between align-items-center">
-            <div class="btn-group">
-              <a
-                href="./portfolio/project-1.html"
-                class="btn btn-sm btn-outline-success"
-                >More
-              </a>
-              <a
-                href="https://github.com/BenjaminJaume/RecycleStationFinder"
-                alt="Github page"
-                target="_blank"
-                class="btn btn-sm btn-outline-success"
-              >
-                <i class="fab fa-github"></i>
-              </a>
-              <a
-                href="#"
-                alt="Open website in a new tab"
-                target="_blank"
-                class="btn btn-sm btn-outline-success disabled"
-              >
-                <i class="fas fa-external-link-alt"></i>
-              </a>
-            </div>
-
-            <small class="text-muted"
-              ><i class="far fa-clock mr-1"></i>2019</small
-            >
-          </div>
-        </div>
-        <!-- END CARD -->
-      </div>
-
-      <!-- NEW CARD -->
-      <div class="card mb-4">
-        <svg
-          class="bd-placeholder-img card-img-top"
-          width="100%"
-          height="225"
-          xmlns="http://www.w3.org/2000/svg"
-          preserveAspectRatio="xMidYMid slice"
-          focusable="false"
-          role="img"
-          aria-label="Placeholder: Thumbnail"
-        >
-          <rect width="100%" height="100%" fill="#55595c"></rect>
-        </svg>
-        <div class="card-body">
-          <h5 class="card-title text-center">Daft Punk Table</h5>
-          <p class="card-text text-center text-center">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
-          </p>
-          <div class="d-flex justify-content-around flex-wrap">
-            <div class="icon-portfolio font-weight-bold ">
-              <img
-                src="https://ap-sync.github.io/media/images/arduino_logo.png"
-                alt="Logo Arduino"
-                class="br-50"
-              />
-              <span>Arduino</span>
-            </div>
-            <div class="icon-portfolio font-weight-bold">
-              <img src="./images/languages/c++.png" alt="Logo C++" />
-              <span>C++</span>
-            </div>
-          </div>
-        </div>
-        <div class="card-footer">
-          <div class="d-flex justify-content-between align-items-center">
-            <div class="btn-group">
-              <a
-                href="./portfolio/project-1.html"
-                class="btn btn-sm btn-outline-success"
-                >More
-              </a>
-              <a
-                href="#"
-                alt="Github page"
-                target="_blank"
-                class="btn btn-sm btn-outline-success disabled"
-              >
-                <i class="fab fa-github"></i>
-              </a>
-              <a
-                href="#"
-                alt="Open website in a new tab"
-                target="_blank"
-                class="btn btn-sm btn-outline-success disabled"
-              >
-                <i class="fas fa-external-link-alt"></i>
-              </a>
-            </div>
-
-            <small class="text-muted"
-              ><i class="far fa-clock mr-1"></i>2019</small
-            >
-          </div>
-        </div>
-        <!-- END CARD -->
-      </div>
-
-      <!-- NEW CARD -->
-      <div class="card mb-4">
-        <img src="./images/arduino.jpg" class="card-img-top" />
-        <div class="card-body">
-          <h5 class="card-title text-center">Arduino</h5>
-          <p class="card-text text-center text-center">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
-          </p>
-          <div class="d-flex justify-content-around flex-wrap">
-            <div class="icon-portfolio font-weight-bold ">
-              <img
-                src="https://ap-sync.github.io/media/images/arduino_logo.png"
-                alt="Logo Arduino"
-                class="br-50"
-              />
-              <span>Arduino</span>
-            </div>
-            <div class="icon-portfolio font-weight-bold">
-              <img src="./images/languages/c++.png" alt="Logo C++" />
-              <span>C++</span>
-            </div>
-          </div>
-        </div>
-        <div class="card-footer">
-          <div class="d-flex justify-content-between align-items-center">
-            <div class="btn-group">
-              <a
-                href="./portfolio/project-1.html"
-                class="btn btn-sm btn-outline-success"
-                >More
-              </a>
-              <a
-                href="#"
-                alt="Github page"
-                target="_blank"
-                class="btn btn-sm btn-outline-success disabled"
-              >
-                <i class="fab fa-github"></i>
-              </a>
-              <a
-                href="#"
-                alt="Open website in a new tab"
-                target="_blank"
-                class="btn btn-sm btn-outline-success disabled"
-              >
-                <i class="fas fa-external-link-alt"></i>
-              </a>
-            </div>
-
-            <small class="text-muted"
-              ><i class="far fa-clock mr-1"></i>2019</small
-            >
-          </div>
-        </div>
-        <!-- END CARD -->
-      </div>
-      <!-- END CARD-DECK -->
-    </div>
 
     <footer id="footer" class="bg-light">
       <div id="message-bottom" class="message-bottom pt-2">
