@@ -1,10 +1,11 @@
 .icon-portfolio {
   margin: 5px;
+  font-size: 0.75rem;
 }
 
 .icon-portfolio img {
-  width: 40px;
-  height: 40px;
+  width: 25px;
+  height: 25px;
 }
 
 .card-deck {
@@ -15,12 +16,20 @@
   margin: 0 0 1rem;
 }
 
+.card-body {
+  margin: 1rem 0.5rem;
+  padding: 0;
+}
+
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575px) {
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
+  .icon-portfolio {
+    font-size: 1rem;
+  }
 }
 
 /* Column management */
