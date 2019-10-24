@@ -1,9 +1,22 @@
-const http = require('http');
+const express = require('express');
+const path = require('path');
+const cors = require('cors');
 
-const server = http.createServer(function(req, res) {
-  console.log(`user visited ${req.url}`);
-  res.end('hello!');
+const app = express();
+
+app.use(cors());
+
+app.get('/', function(req, res) {
+  res.sendFile(path.join(__dirname, './index.html'));
 });
 
-console.log('listening on http://localhost:3000');
-server.listen(3000);
+app.get('/admin', function(req, res) {
+  res.sendFile(path.join(__dirname, 'admin.html'));
+});
+
+app.use(express.static(path.join(__dirname, 'public')));
+// app.use('/public', express.static('./public'));
+
+app.listen(3000, () =>
+  console.log(`Example app listening on http://localhost:3000`)
+);

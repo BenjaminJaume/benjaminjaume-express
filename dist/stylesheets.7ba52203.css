@@ -17,12 +17,11 @@
   color: white;
 }
 
-/* Class for the picture of me at index.html */
-.circle {
+.picture-of-me {
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
-  max-width: 250px;
+  max-width: 200px;
 }
 
 .title-index {

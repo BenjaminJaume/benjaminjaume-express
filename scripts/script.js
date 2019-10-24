@@ -1,3 +1,7 @@
+$(document).ready(function() {
+  $('#navbar-placeholder').load('./navbar.html');
+});
+
 $(function() {
   $('[data-toggle="popover"]').popover();
 });
