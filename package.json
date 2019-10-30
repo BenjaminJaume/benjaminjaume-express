@@ -19,8 +19,8 @@
   "homepage": "https://github.com/BenjaminJaume/index.html",
   "dependencies": {
     "animate": "^1.0.0",
-    "bootstrap": "^4.3.1",
     "cors": "^2.8.5",
+    "countup.js": "^2.0.4",
     "express": "^4.17.1",
     "fontawesome": "^5.6.3",
     "jquery": "^3.4.1",
