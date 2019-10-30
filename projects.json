@@ -1,0 +1,21 @@
+{
+  "projects": [
+    {
+      "name": "Face Recognition App",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "tools": ["react", "javascript", "node.js"],
+      "project-url": "./portfolio/project-1.html",
+      "github-url": "https://github.com/BenjaminJaume/facerecognitionapp",
+      "online-url": "https://serene-coast-32584.herokuapp.com/"
+    },
+
+    {
+      "name": "Taxi",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "tools": ["visual studio", "c++"],
+      "project-url": "./portfolio/project-1.html",
+      "github-url": "https://github.com/BenjaminJaume/ParcelDeliveries",
+      "online-url": "none"
+    }
+  ]
+}
