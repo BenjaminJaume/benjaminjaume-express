@@ -1,0 +1,6 @@
+This project has been created by my friend Axel and I. He is a big fan of
+      Daft Punk, and he'd found a coffee table made by them. We thought that it
+      was possible to do it with a bit of wood, two speakers, some LEDs and an
+      Arduino. So we did it. Because it was at the time when we were
+      experiencing our new skills, the table didn't look really good, so we
+      threw it away a few days after finishing it.

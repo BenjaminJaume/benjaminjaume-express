@@ -1,0 +1,10 @@
+This all started in 2010. It was at the time when I was learning
+      programming at school with an Arduino board. I imagined at the time that
+      the possibilities of things to do where infinite ! And it was time for me
+      to experiment something. My best friend, Axel was studying micro-component
+      and electronic at a deeper level than me and he had already a good
+      knowledge of how electronic component work. So we both agreed on starting
+      a project together, and thought about the Self Driving Car! After days and
+      days of welding, thinking, drinking beers and programming in a small
+      garage, we actually made it! Unfortunately, I do not have any pictures /
+      program left to this day
