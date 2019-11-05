@@ -1,0 +1,6 @@
+At some point in time, I decided to start creating my own website. Which is totally normal for a Front End Developer of course.
+This website is not only my personal website, it is my "playground" kind of thing. Because this is the real official first
+project I got into. Because before, I was just delaying things and watching courses online, I was actually not coding something
+other than projects build throughout courses. So after reading an interesting article on Procrastination, I decided to try
+something, even if it's not going to be perfect. But at least I will have created something, all by myself. Experimenting,
+spending hours researching, struggling, etc.
