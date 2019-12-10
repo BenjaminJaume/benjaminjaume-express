@@ -10,11 +10,10 @@
 }
 
 .main-text {
-  position: absolute;
+  background-color: grey;
   text-align: center;
-  top: 15vh;
-  width: 100%;
   color: white;
+  padding: 40px 0;
 }
 
 .picture-of-me {
@@ -25,7 +24,7 @@
 }
 
 .title-index {
-  font-family: 'Great Vibes', cursive;
+  font-family: "Great Vibes", cursive;
   font-size: 5rem;
 }
 
