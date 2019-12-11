@@ -28,7 +28,7 @@ html {
 
 body {
   background-color: var(--dracula-orchid);
-  font-family: 'Quicksand', cursive;
+  font-family: "Quicksand", cursive;
   margin-top: 56px;
 }
 
@@ -67,7 +67,7 @@ a.btn {
 footer {
   color: var(--silver);
   text-align: center;
-  padding: 50px 0;
+  /* padding: 50px 0; */
 }
 
 footer a {
@@ -82,9 +82,9 @@ footer a:hover {
 
 /* Reset the default font for the message at the bottom */
 #message-bottom {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-    'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji',
-    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 #message-bottom:hover {

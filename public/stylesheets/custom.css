@@ -1,3 +1,57 @@
+/* INDEX */
+
+.carousel-item {
+  height: 92vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.main-text {
+  background-color: grey;
+  text-align: center;
+  color: white;
+  padding: 40px 0;
+}
+
+.picture-of-me {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  max-width: 200px;
+}
+
+.title-index {
+  font-family: "Great Vibes", cursive;
+  font-size: 5rem;
+}
+
+.discover {
+  text-align: center;
+  color: white;
+}
+
+.discover img {
+  border-radius: 10px;
+}
+
+.discover-divider {
+  margin: 3rem 0;
+  background-color: white;
+}
+
+.btn-more {
+  margin-bottom: 2rem;
+}
+
+/* END INDEX */
+
+/* ABOUT ME */
+
 /* Timeline holder */
 ul.timeline {
   list-style-type: none;
@@ -8,7 +62,7 @@ ul.timeline {
 
 /* Timeline vertical line */
 ul.timeline:before {
-  content: ' ';
+  content: " ";
   background: var(--light);
   display: inline-block;
   position: absolute;
@@ -35,7 +89,7 @@ li.timeline-item {
 
 /* Timeline item circle marker */
 li.timeline-item::before {
-  content: ' ';
+  content: " ";
   background: var(--peter-river);
   display: inline-block;
   position: absolute;
@@ -48,17 +102,64 @@ li.timeline-item::before {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
 
+/* END ABOUT ME */
+
+/* CONTACT */
+#contact-form {
+  color: white;
+}
+
+/* END CONTACT */
+
+/* PORTFOLIO */
+
+.icon-portfolio {
+  margin: 5px;
+  font-size: 0.75rem;
+}
+
+.icon-portfolio img {
+  width: 25px;
+  height: 25px;
+}
+
+.card-deck {
+  justify-content: space-between;
+}
+
+.card-deck .card {
+  margin: 0 0 1rem;
+}
+
+.card-body {
+  margin: 1rem 0.5rem;
+  padding: 0;
+}
+
+/* END PORTFOLIO */
+
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575px) {
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
+  .btn-more {
+    margin-bottom: autp;
+  }
+
+  .icon-portfolio {
+    font-size: 1rem;
+  }
 }
 
 /* Column management */
 /* Small devices (landscape phones) */
 @media (min-width: 576px) and (max-width: 767.98px) {
+  .card-deck .card {
+    -ms-flex: 0 0 48.7%;
+    flex: 0 0 48.7%;
+  }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -68,10 +169,22 @@ li.timeline-item::before {
 /* Column management */
 /* Medium devices (tablets) */
 @media (min-width: 768px) and (max-width: 991.98px) {
+  .card-deck .card {
+    -ms-flex: 0 0 32%;
+    flex: 0 0 32%;
+  }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+  .discover-heading {
+    margin-top: 7rem;
+  }
+
+  .card-deck .card {
+    -ms-flex: 0 0 24%;
+    flex: 0 0 24%;
+  }
 }
 
 /* Column management */
