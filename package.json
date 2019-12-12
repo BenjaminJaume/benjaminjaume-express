@@ -4,7 +4,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "lint": "eslint public/scripts"
   },
   "repository": {
     "type": "git",
@@ -26,5 +27,6 @@
     "jquery": "^3.4.1",
     "path": "^0.12.7"
   },
-  "description": ""
+  "description": "",
+  "devDependencies": {}
 }
