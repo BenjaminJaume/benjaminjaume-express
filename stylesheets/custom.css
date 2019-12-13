@@ -54,6 +54,7 @@
 .main-text {
   background: url(../images/computer-1.jpg);
   background-size: cover;
+  height: 90vh;
   text-align: center;
   color: white;
   padding: 40px 0;
@@ -71,16 +72,16 @@
   font-size: 5rem;
 }
 
-.discover {
+#discover {
   text-align: center;
   color: white;
 }
 
-.discover img {
+#discover img {
   border-radius: 10px;
 }
 
-.discover-divider {
+#discover-divider {
   margin: 3rem 0;
   background-color: white;
 }
@@ -218,7 +219,7 @@ li.timeline-item::before {
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-  .discover-heading {
+  #discover-heading {
     margin-top: 7rem;
   }
 
