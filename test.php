@@ -11,7 +11,7 @@ if (!$db) {
 } else {
     echo "Opened database successfully\n";
 
-    $result = pg_query($conn, "SELECT * FROM projects");
+    $result = pg_query($db, "SELECT * FROM projects");
     if (!$result) {
         echo "An error occurred.\n";
         exit();
