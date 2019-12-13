@@ -1,0 +1,13 @@
+https://data.heroku.com/datastores/f50ce226-c0cb-4a8a-b376-9127376c6cd7#administration
+
+INSERT INTO projects(name, description, languages, github, link)
+VALUES ('BenjaminJaume', 'Lorem Ipsum', '{HTML,CSS,Javascript}', 'https://github.com/BenjaminJaume/benjaminjaume', 'https://benjaminjaume.herokuapp.com/');
+
+CREATE TABLE projects (
+    id serial PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    description VARCHAR(255),
+    languages VARCHAR(255)[],
+	github VARCHAR(255),
+	link VARCHAR(255)
+);
