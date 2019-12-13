@@ -9,5 +9,7 @@
       echo "Error : Unable to open database\n";
    } else {
       echo "Opened database successfully\n";
+      $result = pg_query($db, "SELECT * FROM projects");
+      echo $result;
    }
 ?>
