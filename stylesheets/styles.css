@@ -42,26 +42,8 @@ body {
   text-align: center;
 }
 
-.download-button {
-  margin: 1rem;
-}
-
-.download-button button {
-  border-radius: 40px;
-}
-
-/* Extending the orginal class from Bootstrap */
-.jumbotron {
-  background-color: var(--silver);
-  margin-bottom: 0;
-}
-
 a.btn {
   border-radius: 40px;
-}
-
-.br-50 {
-  border-radius: 50%;
 }
 
 footer {
@@ -91,28 +73,6 @@ footer a:hover {
   -webkit-animation: heartBeat 1s;
   animation: heartBeat 1s;
   cursor: default;
-}
-
-.linkedin-icon:hover {
-  color: var(--linkedin-color);
-}
-
-.github-icon:hover {
-  color: var(--github-color);
-}
-
-.facebook-icon:hover {
-  color: var(--facebook-color);
-}
-
-.whatsapp-icon:hover {
-  color: var(--whatsapp-color);
-  cursor: pointer;
-}
-
-.whatsapp-icon:focus {
-  /* border-color: #ccc; */
-  outline: 0;
 }
 
 /* I can't select the body of the popover for
@@ -146,9 +106,6 @@ the WhatsApp number, so I am making a general rule */
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-  .download-button {
-    margin: 0;
-  }
 }
 
 /* Column management */

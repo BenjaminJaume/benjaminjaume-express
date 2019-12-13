@@ -1,3 +1,43 @@
+.download-button {
+  margin: 1rem;
+}
+
+.download-button button {
+  border-radius: 40px;
+}
+
+/* Extending the orginal class from Bootstrap */
+.jumbotron {
+  background-color: var(--silver);
+  margin-bottom: 0;
+}
+
+.linkedin-icon:hover {
+  color: var(--linkedin-color);
+}
+
+.github-icon:hover {
+  color: var(--github-color);
+}
+
+.facebook-icon:hover {
+  color: var(--facebook-color);
+}
+
+.whatsapp-icon:hover {
+  color: var(--whatsapp-color);
+  cursor: pointer;
+}
+
+.whatsapp-icon:focus {
+  /* border-color: #ccc; */
+  outline: 0;
+}
+
+.br-50 {
+  border-radius: 50%;
+}
+
 /* INDEX */
 
 .carousel-item {
@@ -12,7 +52,8 @@
 }
 
 .main-text {
-  background-color: grey;
+  background: url(../images/computer-1.jpg);
+  background-size: cover;
   text-align: center;
   color: white;
   padding: 40px 0;
@@ -184,6 +225,10 @@ li.timeline-item::before {
   .card-deck .card {
     -ms-flex: 0 0 24%;
     flex: 0 0 24%;
+  }
+
+  .download-button {
+    margin: 0;
   }
 }
 
