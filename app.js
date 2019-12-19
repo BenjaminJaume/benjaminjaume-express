@@ -12,7 +12,8 @@ var aboutMeRouter = require("./routes/about-me");
 var contactRouter = require("./routes/contact");
 var portfolioRouter = require("./routes/portfolio");
 var resumeRouter = require("./routes/resume");
-var testRouter = require("./routes/test");
+
+var resumeProjects = require("./routes/projects");
 
 var app = express();
 
@@ -35,7 +36,8 @@ app.use("/about-me", aboutMeRouter);
 app.use("/contact", contactRouter);
 app.use("/portfolio", portfolioRouter);
 app.use("/resume", resumeRouter);
-app.use("/test", testRouter);
+
+app.use("/projects", resumeProjects);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
